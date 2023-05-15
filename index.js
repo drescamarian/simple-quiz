@@ -1,45 +1,122 @@
-// heare i import the readline, fs and path modules
 const readline = require("readline");
-const fs = require("fs"); // fs is a file sistem module
-const path = require("path"); // path is a module that allows us to work with file paths
-// heare i create a readline interface
+const fs = require("fs");
+const path = require("path");
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
 });
-// heare i create a quiz object that will contain the questions and answers for the quiz and the current question and score
+
 const quiz = {
-  questions: [], // heare i create an empty array that will contain the questions
-  currentQuestion: 0, // heare i create a variable that will contain the index of the current question
-  score: 0, // heare i create a variable that will contain the number of correct answers
-  loadQuestions: function () { // heare i create a method that loads the questions from the questions.json file
-    const questions = JSON.parse( fs.readFileSync(path.join(__dirname, "questions.json"))); // heare i parse the questions.json file
-    this.questions = questions; // heare i set the questions property to the questions array
+  questions: [],
+  currentQuestion: 0,
+  score: 0,
+  name: "",
+  loadQuestions: function () {
+    let questions = JSON.parse(
+      fs.readFileSync(path.join(__dirname, "questions.json"), "utf-8")
+    );
+    let randomQuestions = [];
+    while (randomQuestions.length < 5) {
+      let randomIndex = Math.floor(Math.random() * questions.length);
+      if (!randomQuestions.includes(questions[randomIndex])) {
+        randomQuestions.push(questions[randomIndex]);
+      }
+    }
+    this.questions = randomQuestions;
+  },
+  askName: function () {
+    rl.question("What is your name? ", (name) => {
+      if (name === "") {
+        name = "Player";
+      }
+      console.log(`Hello ${name}!`);
+      this.name = name;
+      quiz.askQuestion();
+    });
+  },
+  askQuestion: function () {
+    rl.question(quiz.questions[quiz.currentQuestion].question, (answer) => {
+      if (
+        answer.toLowerCase().trim() ===
+        quiz.questions[quiz.currentQuestion].answer.toLowerCase().trim()
+      ) {
+        quiz.score++;
+        console.log("Correct!");
+      } else {
+        console.log("Wrong!");
+      }
+      quiz.currentQuestion++;
+      if (quiz.currentQuestion < quiz.questions.length) {
+        quiz.askQuestion();
+      } else {
+        console.log(
+          `You got ${quiz.score} out of ${quiz.questions.length} questions correct!`
+        );
+        quiz.storeScore();
+      }
+    });
+  },
+  storeScore: function () {
+    fs.appendFileSync(
+      path.join(__dirname, "scores.txt"),
+      `${this.name}: ${this.score}\n`
+    );
+    quiz.playAgain();
+  },
+  playAgain: function () {
+    rl.question("Do you want to play again? (yes/no) ", (answer) => {
+      if (answer.toLowerCase().trim() === "yes") {
+        quiz.currentQuestion = 0;
+        quiz.score = 0;
+        quiz.askQuestion();
+      } else {
+        let scores = fs.readFileSync(
+          path.join(__dirname, "scores.txt"),
+          "utf-8"
+        );
+        let firstPlace = "";
+        let secondPlace = "";
+        let thirdPlace = "";
+        let firstPlaceScore = 0;
+        let secondPlaceScore = 0;
+        let thirdPlaceScore = 0;
+        let lines = scores.split("\n");
+        for (let i = 0; i < lines.length; i++) {
+          let line = lines[i];
+          if (line !== "") {
+            let name = line.split(":")[0];
+            let score = parseInt(line.split(":")[1]);
+            if (score > firstPlaceScore) {
+              thirdPlace = secondPlace;
+              thirdPlaceScore = secondPlaceScore;
+              secondPlace = firstPlace;
+              secondPlaceScore = firstPlaceScore;
+              firstPlace = name;
+              firstPlaceScore = score;
+            } else if (score > secondPlaceScore) {
+              thirdPlace = secondPlace;
+              thirdPlaceScore = secondPlaceScore;
+              secondPlace = name;
+              secondPlaceScore = score;
+            } else if (score > thirdPlaceScore) {
+              thirdPlace = name;
+              thirdPlaceScore = score;
+            }
+          }
+        }
+        console.log(`1. ${firstPlace}: ${firstPlaceScore}`);
+        console.log(`2. ${secondPlace}: ${secondPlaceScore}`);
+        console.log(`3. ${thirdPlace}: ${thirdPlaceScore}`);
+        rl.close();
+      }
+    });
   },
 };
 
-quiz.loadQuestions(); // heare i call the loadQuestions method to load the questions from the questions.json file
-// heare i create a function that asks the current question and checks the answer
-function askQuestion() {
-  const question = quiz.questions[quiz.currentQuestion]; // heare i get the current question
-  rl.question(question.question, (answer) => { // heare i ask the current question
-    if (answer.toLowerCase() === question.answer.toLowerCase()) { // heare i check the answer
-      quiz.score++; // heare i increment the score
-      console.log("Correct!"); // heare i print the result
-    } else {
-      console.log("Incorrect!"); // heare i print the result
-    }
-    quiz.currentQuestion++; // heare i increment the current question
-    if (quiz.currentQuestion === quiz.questions.length) { // heare i check if the quiz is over
-      console.log(`You scored ${quiz.score} out of ${quiz.questions.length}`); // heare i print the final score
-      rl.close(); // heare i close the readline interface
-    } else {
-      askQuestion(); // heare i call the askQuestion function to ask the next question and check the answer
-    }
-  });
-}
-
-askQuestion(); // heare i call the askQuestion function to ask the current question and check the answer
+quiz.loadQuestions();
+quiz.askName();
+quiz.askQuestion();
+quiz.storeScore();
 
 /*
  The quescions.json file contains the questions and answers for the quiz.

@@ -24,7 +24,55 @@
     "answer": "Kiev"
   },
   {
-    "question": "Wat is the capital of Romaia?\n",
-    "answer": "Bucharest"
+    "question": "What is the capital of Russia?\n",
+    "answer": "Moscow"
+  },
+  {
+    "question": "What is the capital of Belarus?\n",
+    "answer": "Minsk"
+  },
+  {
+    "question": "What is the capital of the United Kingdom?\n",
+    "answer": "London"
+  },
+  {
+    "question": "What is the capital of the United States?\n",
+    "answer": "Washington"
+  },
+  {
+    "question": "What is the capital of Canada?\n",
+    "answer": "Ottawa"
+  },
+  {
+    "question": "What is the capital of Mexico?\n",
+    "answer": "Mexico City"
+  },
+  {
+    "question": "What is the capital of Brazil?\n",
+    "answer": "Brasilia"
+  },
+  {
+    "question": "What is the capital of Argentina?\n",
+    "answer": "Buenos Aires"
+  },
+  {
+    "question": "What is the capital of Chile?\n",
+    "answer": "Santiago"
+  },
+  {
+    "question": "What is the capital of Peru?\n",
+    "answer": "Lima"
+  },
+  {
+    "question": "What is the capital of Colombia?\n",
+    "answer": "Bogota"
+  },
+  {
+    "question": "What is the capital of Venezuela?\n",
+    "answer": "Caracas"
+  },
+  {
+    "question": "What is the capital of Ecuador?\n",
+    "answer": "Quito"
   }
 ]
