@@ -1,74 +1,131 @@
-const readline = require("readline");
-const fs = require("fs");
-const path = require("path");
+import readline from "readline";
+import chalk from "chalk";
+import fs from "fs";
+import { dirname } from "path";
+import path from "path";
+import { fileURLToPath } from "url";
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
 });
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const quiz = {
   questions: [],
   currentQuestion: 0,
   score: 0,
   name: "",
-  loadQuestions: function () {
-    let questions = JSON.parse(
-      fs.readFileSync(path.join(__dirname, "questions.json"), "utf-8")
-    );
-    let randomQuestions = [];
-    while (randomQuestions.length < 5) {
-      let randomIndex = Math.floor(Math.random() * questions.length);
-      if (!randomQuestions.includes(questions[randomIndex])) {
-        randomQuestions.push(questions[randomIndex]);
+  askQuestionsSets: "",
+  // Ask the user for the questions set and load the questions
+  askQuestionSet: function () {
+    console.clear();
+    rl.question(
+      "What questions set do you want to load?\n1. Kids questions\n2. General questions\n3. World Capitals\n4. General questions v2\nYour chose => ",
+      (answer) => {
+        if (answer > 0 && answer <= 4) {
+          this.loadQuestion(answer);
+        } else {
+          console.log("Invalid input! Loading default questions set.");
+          this.askQuestionSet();
+          return;
+        }
       }
-    }
-    this.questions = randomQuestions;
+    );
   },
+
+  loadQuestion: function (load) {
+    let readQuescion = JSON.parse(
+      fs.readFileSync(path.join(__dirname, `questions${load}.json`), "utf-8")
+    );
+    let shuffle = readQuescion.sort(() => Math.random() - 0.5);
+    this.questions = shuffle;
+    if (load === 1) {
+      this.askQuestionsSets = "Kids questions";
+    }
+    if (load === 2) {
+      this.askQuestionsSets = "General questions";
+    }
+    if (load === 3) {
+      this.askQuestionsSets = "World Capitals";
+    }
+    if (load === 4) {
+      this.askQuestionsSets = "General questions v2";
+    }
+    this.askName();
+  },
+
+  // Ask the user for his name
   askName: function () {
-    rl.question("What is your name? ", (name) => {
+    rl.question("What is your name? => ", (name) => {
       if (name === "") {
         name = "Player";
       }
-      console.log(`Hello ${name}!`);
+      console.log(chalk.magenta(`Hello ${name}! Welcome to the quiz! `));
+      console.log(`There are ${this.questions.length} questions in this quiz!`);
+      console.log("Type your answer and press enter to submit it.");
+      console.log("Type 'exit' to exit the quiz.");
+      console.log("Good luck!");
       this.name = name;
-      quiz.askQuestion();
+      this.askQuestion();
     });
   },
+  // Ask the user the current question and await for the loadQuestion to finish
   askQuestion: function () {
-    rl.question(quiz.questions[quiz.currentQuestion].question, (answer) => {
-      if (
-        answer.toLowerCase().trim() ===
-        quiz.questions[quiz.currentQuestion].answer.toLowerCase().trim()
-      ) {
-        quiz.score++;
-        console.log("Correct!");
-      } else {
-        console.log("Wrong!");
+    rl.question(
+      this.questions[this.currentQuestion].question + "\n",
+      (answer) => {
+        if (
+          answer.toLowerCase().trim() ===
+          this.questions[this.currentQuestion].answer.toLowerCase().trim()
+        ) {
+          this.score++;
+          console.log(chalk.green.bold("Correct!" + "\n"));
+        } else if (answer === "exit") {
+          console.log(
+            chalk.blue(
+              `You got ${this.score} out of ${this.questions.length} questions correct!`
+            )
+          );
+          this.storeScore();
+        } else {
+          console.log(
+            chalk.red("Wrong! The correct answer is: ") +
+              chalk.green(this.questions[this.currentQuestion].answer) +
+              "\n"
+          );
+        }
+        this.currentQuestion++;
+        if (this.currentQuestion < this.questions.length) {
+          this.askQuestion();
+        } else {
+          console.log(
+            chalk.blue(
+              `You got ${this.score} out of ${this.questions.length} questions correct!`
+            )
+          );
+          this.storeScore();
+        }
       }
-      quiz.currentQuestion++;
-      if (quiz.currentQuestion < quiz.questions.length) {
-        quiz.askQuestion();
-      } else {
-        console.log(
-          `You got ${quiz.score} out of ${quiz.questions.length} questions correct!`
-        );
-        quiz.storeScore();
-      }
-    });
+    );
   },
+  // Store the user's score in a file
   storeScore: function () {
     fs.appendFileSync(
       path.join(__dirname, "scores.txt"),
-      `${this.name}: ${this.score}\n`
+      `${this.name}: ${this.score} : ${this.askQuestionsSets}\n`
     );
-    quiz.playAgain();
+    this.playAgain();
   },
+  // Ask the user if he wants to play again ore exit the game and print the top 3 scores
   playAgain: function () {
     rl.question("Do you want to play again? (yes/no) ", (answer) => {
       if (answer.toLowerCase().trim() === "yes") {
-        quiz.currentQuestion = 0;
-        quiz.score = 0;
-        quiz.askQuestion();
+        this.currentQuestion = 0;
+        this.score = 0;
+        this.questions = this.questions.sort(() => Math.random() - 0.5);
+        console.clear();
+        this.askQuestion();
       } else {
         let scores = fs.readFileSync(
           path.join(__dirname, "scores.txt"),
@@ -112,11 +169,11 @@ const quiz = {
     });
   },
 };
-
-quiz.loadQuestions();
-quiz.askName();
-quiz.askQuestion();
-quiz.storeScore();
+quiz.askQuestionSet();
+// quiz.loadQuestion();
+// quiz.askName();
+// quiz.askQuestion();
+// quiz.storeScore();
 
 /*
  The quescions.json file contains the questions and answers for the quiz.
