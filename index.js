@@ -40,16 +40,16 @@ const quiz = {
     );
     let shuffle = readQuescion.sort(() => Math.random() - 0.5);
     this.questions = shuffle;
-    if (load === 1) {
+    if (load == 1) {
       this.askQuestionsSets = "Kids questions";
     }
-    if (load === 2) {
+    if (load == 2) {
       this.askQuestionsSets = "General questions";
     }
-    if (load === 3) {
+    if (load == 3) {
       this.askQuestionsSets = "World Capitals";
     }
-    if (load === 4) {
+    if (load == 4) {
       this.askQuestionsSets = "General questions v2";
     }
     this.askName();
@@ -62,10 +62,10 @@ const quiz = {
         name = "Player";
       }
       console.log(chalk.magenta(`Hello ${name}! Welcome to the quiz! `));
-      console.log(`There are ${this.questions.length} questions in this quiz!`);
-      console.log("Type your answer and press enter to submit it.");
-      console.log("Type 'exit' to exit the quiz.");
-      console.log("Good luck!");
+      console.log(chalk.bgBlue.yellow(`There are ${this.questions.length} questions in this quiz!`));
+      console.log(chalk.green("Type your answer and press enter to submit it."));
+      console.log(chalk.green("Type 'exit' to exit the quiz."));
+      console.log(chalk.cyanBright("Good luck!"));
       this.name = name;
       this.askQuestion();
     });
@@ -73,7 +73,11 @@ const quiz = {
   // Ask the user the current question and await for the loadQuestion to finish
   askQuestion: function () {
     rl.question(
-      this.questions[this.currentQuestion].question + "\n",
+      this.questions[this.currentQuestion].question +
+        "\n" +
+        this.questions[this.currentQuestion].take +
+        "\n" +
+        "Your answer => ",
       (answer) => {
         if (
           answer.toLowerCase().trim() ===
@@ -125,7 +129,7 @@ const quiz = {
         this.score = 0;
         this.questions = this.questions.sort(() => Math.random() - 0.5);
         console.clear();
-        this.askQuestion();
+        this.askQuestionSet();
       } else {
         let scores = fs.readFileSync(
           path.join(__dirname, "scores.txt"),
@@ -137,12 +141,16 @@ const quiz = {
         let firstPlaceScore = 0;
         let secondPlaceScore = 0;
         let thirdPlaceScore = 0;
+        let firstSet = "";
+        let secondSet = "";
+        let thirdSet = "";
         let lines = scores.split("\n");
         for (let i = 0; i < lines.length; i++) {
           let line = lines[i];
           if (line !== "") {
             let name = line.split(":")[0];
             let score = parseInt(line.split(":")[1]);
+            let Set = line.split(":")[2];
             if (score > firstPlaceScore) {
               thirdPlace = secondPlace;
               thirdPlaceScore = secondPlaceScore;
@@ -150,36 +158,37 @@ const quiz = {
               secondPlaceScore = firstPlaceScore;
               firstPlace = name;
               firstPlaceScore = score;
+              firstSet = Set;
             } else if (score > secondPlaceScore) {
               thirdPlace = secondPlace;
               thirdPlaceScore = secondPlaceScore;
               secondPlace = name;
               secondPlaceScore = score;
+              secondSet = Set;
             } else if (score > thirdPlaceScore) {
               thirdPlace = name;
               thirdPlaceScore = score;
+              thirdSet = Set;
             }
           }
         }
-        console.log(`1. ${firstPlace}: ${firstPlaceScore}`);
-        console.log(`2. ${secondPlace}: ${secondPlaceScore}`);
-        console.log(`3. ${thirdPlace}: ${thirdPlaceScore}`);
+        console.log(chalk.bgBlue.yellow(`1. ${firstPlace}: ${firstPlaceScore} in ${firstSet}`));
+        console.log(chalk.bgRed.blue(`2. ${secondPlace}: ${secondPlaceScore} in ${secondSet}`));
+        console.log(chalk.bgWhite.red(`3. ${thirdPlace}: ${thirdPlaceScore} in ${thirdSet}`));
         rl.close();
       }
     });
   },
 };
 quiz.askQuestionSet();
-// quiz.loadQuestion();
-// quiz.askName();
-// quiz.askQuestion();
-// quiz.storeScore();
+
 
 /*
  The quescions.json file contains the questions and answers for the quiz.
   the question format is as follows:
   { | index  |   |            text    |  new line  | }
-    "question": " |YOUR QUESTION HEARE|  \n",
+    "question": " |YOUR QUESTION HEARE|  \n", 
+    "take": "A => first\nB => second\nC => therd\nD => forth",
     "answer": " |YOUR ANSWER HEARE| "
   } "," - is a comma that separates the questions and answers is the required format for a json file
 !------------------------------------------------------------------------------!

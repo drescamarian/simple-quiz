@@ -1,82 +1,102 @@
 [
   {
     "question": "As recently dramatised in a critically acclaimed miniseries, what year did the Chernobyl disaster occur?",
-    "answer": "1986"
+    "take":"A => 1986\nB => 1984\nC => 1982\nD => 1980",
+    "answer": "A"
   },
   {
     "question": "Who was Lord Mayor of London four times between 1397 and 1419, and the inspiration for a classic English folk tale?",
-    "answer": "Richard '(Dick) Whittington'"
+    "take": "A => Dick Whittington\nB => Manic Adrian\nC => Andrew Pamley\nD => Nicholas Lyons",
+    "answer": "A"
   },
   {
     "question": "Who was the second President of the United States?",
-    "answer": "John Adams"
+    "take": "A => Patricia Adams\nB => Dawin\nC => John Adams\nD => Alexander Hamilton",
+    "answer": "C"
   },
   {
     "question": "Who was the only one of Henry VIII's wives to receive a Queen's funeral?",
-    "answer": "Jane Seymour"
+    "take": "A => Jane Seymour\nB => Jame Kuck\nC => Jon Dwho\nD => Admiral Nelson",
+    "answer": "A"
   },
   {
     "question": "Which British archaeologist discovered Tutankhamun's tomb?",
-    "answer": "Howard Carter"
+    "take": "A => Robert Brier\nB => Reginald Engelbach\nC => Howard Carter\nD => Alan Gardiner",
+    "answer": "C"
   },
   {
     "question": "Who was the leader of Britain's ill-fated Antarctic expedition which was one of the first to reach the South Pole in 1912?",
-    "answer": "Robert F. Scott"
+    "take": "A => Roald Amundsen\nB => Robert F. Scott\nC => Edward L. Atkinson\nD => King Edward VII",
+    "answer": "B"
   },
   {
     "question": "In which European country was there a civil war between 1946 and 1949?",
-    "answer": "Greece"
+    "take": "A => France\nB => Belarus\nC => Germany\nD => Greece",
+    "answer": "D"
   },
   {
     "question": "Which 13th Century Scottish knight did Mel Gibson portray in Braveheart?",
-    "answer": "William Wallace"
+    "take": "A => William Alexander\nB => William Aitken\nC => William Wallace\nD => Philip Ainslie",
+    "answer": "C"
   },
   {
     "question": "Which war was fought in South Africa between 1899 and 1902?",
-    "answer": "Second Boer War"
+    "take": "A => Second Boer War\nB => Fulani War\nC => Ongoing Bakassi Conflict\nD => Fula Jihads",
+    "answer": "A"
   },
   {
     "question": "In which country did the Second World War Battles of El Alamein take place?",
-    "answer": "Egypt"
+    "take": "A => Sudan\nB => Egypt\nC => Pakistan\nD => Libya",
+    "answer": "B"
   },
   {
     "question": "Who discovered the wreckage of the Titanic?",
-    "answer": "Robert Ballard"
+    "take": "A => URSS\nB => Robert Ballard\nC => leonardo DiCaprio\nD => US Navy",
+    "answer": "B"
   },
   {
     "question": "What year did the Challenger Space Shuttle disaster take place?",
-    "answer": "1986"
+    "take": "A => 2002\nB => 1800\nC => 1886\nD => 1986 ",
+    "answer": "D"
   },
   {
     "question": "What year was the Magna Carta signed?",
-    "answer": "1215"
+    "take": "A => 1415\nB => 1151\nC => 1215\nD => 2215",
+    "answer": "C"
   },
   {
     "question": "Which British King suffered from a stammer, as portrayed by Colin Firth in The King's Speech?",
-    "answer": "George 'King George VI'"
+    "take": "A => Anne\nB => King George VI\nC => Edward VII\nD => William IV",
+    "answer": "B"
   },
   {
     "question": "What was the name of the ship that brought news of the Battle of Trafalgar to Britain?",
-    "answer": "HMS Pickle"
+    "take": "A => HMS Belfast\nB => HMS Pickle\nC => HMS Britannia\nD => Titanic",
+    "answer": "B"
   },
   {
     "question": "Which pilot famously fought in the Battle of Britain with two artificial legs?",
-    "answer": "Douglas Bader"
+    "take": "A => Johnnie Johnson\nB => Barbara  Harmer\nC => Douglas Bader\nD => Cecil Beaton",
+    "answer": "C"
   },
   {
     "question": "Wat year did the Korean War end?",
-    "answer": "1953"
+    "take": "A => 1953\nB => 1845\nC => 2007\nD => 1933",
+    "answer": "A"
   },
   {
     "question": "Which real-life American frontiersman did Leonardo DiCaprio portray in The Revenant?",
-    "answer": "Hugh Glass"
+    "take": "A => Jeff Bezos\nB => Hugh Glass\nC => Martin Luter\nD => Nicole Martin",
+    "answer": "C"
   },
   {
-    "question": "Which ship is notorious for experiencing the bloodiest mutiny in British naval history? (Hint - it's also the name of a Harry Potter character)",
-    "answer": "HMS Hermione"
+    "question": "Which ship is notorious for experiencing the bloodiest mutiny in British naval history? (Hint - it's also the name of a Harry Potter character?",
+    "take": "A => HMS Duncan\nB => Nelson\nC => HMS Hermione\nD => Liberty",
+    "answer": "C"
   },
   {
     "question": "Who discovered penicillin?",
-    "answer": "Alexander Fleming"
+    "take": "A => Nikola Tesla\nB => Albert Einstein\nC => Marie Curie\nD => Alexander Fleming",
+    "answer": "D"
   }
 ]

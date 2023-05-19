@@ -1,98 +1,122 @@
 [
   {
     "question": "What band was Freddie Mercury in before his solo career?",
-    "answer": "Queen"
+    "take": "A => One Direction\nB => Beyonce\nC => The Beatles\nD => Queen",
+    "answer": "D"
   },
   {
     "question": "Which Disney Princess called Gus and Jaq friends?",
-    "answer": "Cinderella"
+    "take": "A => Cinderella\nB => Snow White\nC => Belle\nD => Ariel",
+    "answer": "A"
   },
   {
     "question": "Who is the President of the United States?",
-    "answer": "Joe Biden"
+    "take": "A => Donald Trump\nB => Joe Biden\nC => Barack Obama\nD => George Bush",
+    "answer": "B"
   },
   {
     "question": "Who is the national sport of the United States?",
-    "answer": "Football"
+    "take": "A => Baseball\nB => Basketball\nC => American Football\nD => Ice Hockey",
+    "answer": "C"
   },
   {
     "question": "How many sides does an octagon have?",
-    "answer": "Eight"
+    "take": "A => Six\nB => Twelve\nC => Ten\nD => Eight",
+    "answer": "D"
   },
   {
     "question": "In the Toy Story films, what is the name of the boy who the toys belong to?",
-    "answer": "Andy"
+    "take": "A => Joe\nB => Billy\nC => Andy\nD => Tom",
+    "answer": "C"
   },
   {
     "question": "What is the capital of Germany?",
-    "answer": "Berlin"
+    "take": "A => Berlin\nB => Paris\nC => London\nD => Rome",
+    "answer": "A"
   },
   {
     "question": "How many books are there in the Harry Potter series?",
-    "answer": "7"
+    "take": "A => Six\nB => Seven\nC => Eight\nD => Nine",
+    "answer": "B"
   },
   {
     "question": "What sport does Roger Federer play?",
-    "answer": "Tennis"
+    "take": "A => Golf\nB => Football\nC => Cricket\nD => Tennis",
+    "answer": "D"
   },
   {
     "question": "What date is Guy Fawkes Night?",
-    "answer": "5th November"
+    "take": "A => 5th January\nB => 5th December\nC => 5th November\nD => 5th February",
+    "answer": "C"
   },
   {
     "question": "What animal does pork come from?",
-    "answer": "Pig"
+    "take": "A => Cow\nB => Pig\nC => Chicken\nD => Sheep",
+    "answer": "B"
   },
   {
     "question": "In what country would you find The White House?",
-    "answer": "USA"
+    "take": "A => France\nB => UK\nC => USA\nD => Germany",
+    "answer": "C"
   },
   {
     "question": "What kind of food is Penne?",
-    "answer": "Pasta"
+    "take": "A => Pasta\nB => Pizza\nC => Burger\nD => Sandwich",
+    "answer": "A"
   },
   {
     "question": "How many days are there in February during a leap year?",
-    "answer": "29"
+    "take": "A => 28\nB => 29\nC => 30\nD => 31",
+    "answer": "B"
   },
   {
     "question": "In what country might you find a platypus and a wombat?",
-    "answer": "Australia"
+    "take": "A => UK\nB => USA\nC => Australia\nD => France",
+    "answer": "C"
   },
   {
     "question": "What is Super Mario's brother called?",
-    "answer": "Luigi"
+    "take": "A => Wario\nB => Mario\nC => Luigi\nD => Waluigi",
+    "answer": "C"
   },
   {
     "question": "What kind of creature is Shrek?",
-    "answer": "Ogre"
+    "take": "A => Elf\nB => Troll\nC => Ogre\nD => Human",
+    "answer": "A"
   },
   {
     "question": "What three colours make up the French flag?",
-    "answer": "Red white blue"
+    "take": "A => Red white yellow\nB => Red white green\nC => Red white black\nD => Red white blue",
+    "answer": "D"
   },
   {
     "question": "What band was Harry Styles in before his solo career?",
-    "answer": "One Direction"
+    "take": "A => One Direction\nB => The Beatles\nC => Queen\nD => Beyonce",
+    "answer": "A"
   },
   {
     "question": "What kind of food does a panda eat?",
-    "answer": "Bamboo"
+    "take": "A => Pizza\nB => Bamboo\nC => Burger\nD => Sandwich",
+    "answer": "B"
   },
   {
     "question": "What is the highest mountain in the world?",
-    "answer": "Everest"
+    "take": "A => Mount Rushmore\nB => Mount Kilimanjaro\nC => Mount Fuji\nD => Mount Everest",
+    "answer": "D"
   },
   {
     "question": "What programme features trains called James and Gordon?",
-    "answer": "Thomas the Tank Engine"
+    "take": "A => Paw Patrol\nB => Peppa Pig\nC => Thomas the Tank Engine\nD => Spongebob Squarepants",
+    "answer": "C"
   },
   {
     "question": "What type of animal is a greyhound?",
-    "answer": "dog"
+    "take": "A => Cat\nB => Dog\nC => Horse\nD => Bird",
+    "answer": "B"
   },
   {
     "question": "How many players are there on a rugby team?",
-    "answer": "15"
+    "take": "A => 12\nB => 13\nC => 14\nD => 15",
+    "answer": "D"
   }
 ]
