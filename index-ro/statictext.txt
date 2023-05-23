@@ -1,13 +1,13 @@
 Bun venit la test! ::
 Vă rugăm să alegeți setul de întrebări → ::
 Ce set de întrebări doriți să încărcați? ::
-1. Întrebări pentru copii ::
-2. Versiunea generală 1 ::
-3. Capitale mondiale ::
-4. Versiunea generală 2 ::
-Te-ai hotarat → ::
+1 → Întrebări pentru copii ::
+2 → Versiunea generală 1 ::
+3 → Capitale mondiale ::
+4 → Versiunea generală 2 ::
+Te-ai hotărât → ::
 Intrare nevalidă! Se încarcă setul de întrebări implicite. ::
-intrebari copii ::
+Întrebări copii ::
 Versiunea generală 1 ::
 Capitale mondiale ::
 Versiunea generală 2 ::
@@ -17,9 +17,9 @@ Există: întrebări în acest test! ::
 Introduceți răspunsul și apăsați pe Enter pentru a-l trimite. ::
 Tastați „exit” pentru a părăsi testul. ::
 Noroc! ::
-Raspunsul tau → ::
+Răspunsul tău → ::
 Corect! ::
 Ai : din : întrebări corecte! :
-Gresit! : Răspunsul corect este:
+Greșit! : Răspunsul corect este :
 Ai : din : întrebări corecte! :
-Vrei să joci din nou? (da nu) ::
+Vrei să joci din nou? (Yes/Nu) ::

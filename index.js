@@ -21,7 +21,7 @@ const quiz = {
   askLanguage: function () {
     // console.clear();
     rl.question(
-      "Choose your language: \n1. English\n2. German\n3. Romana\n4. Polszczyzna\n",
+      "Choose your language: \n1 → English\n2 → German\n3 → Romana\n4 → Polski\n",
       (answer) => {
         console.clear();
         let filepath = "";
@@ -159,8 +159,7 @@ const quiz = {
           console.log(
             chalk.red(this.static[22].first) +
               chalk.greenBright(this.static[22].second) +
-              chalk.green(this.questions[this.currentQuestion].answer) +
-              "\n"
+              chalk.green(this.questions[this.currentQuestion].answer) 
           );
         }
         this.currentQuestion++;
@@ -174,8 +173,7 @@ const quiz = {
                 this.static[23].second +
                 this.questions.length +
                 this.static[23].therd
-            )
-          );
+            ));
           this.storeScore();
         }
       }
@@ -197,7 +195,7 @@ const quiz = {
         this.score = 0;
         this.questions = this.questions.sort(() => Math.random() - 0.5);
         console.clear();
-        this.askQuestion(); // jump to begining wihtout loading the questions
+        this.askQuestionSet(); // jump to begining wihtout loading the questions
       } else {
         let scores = fs.readFileSync(
           path.join(__dirname, "scores.txt"),
@@ -214,15 +212,6 @@ const quiz = {
           }
         });
         score = score.sort((a, b) => b.score - a.score);
-        firstPlace = score[0].name;
-        firstPlaceScore = score[0].score;
-        firstSet = score[0].Set;
-        secondPlace = score[1].name;
-        secondPlaceScore = score[1].score;
-        secondSet = score[1].Set;
-        thirdPlace = score[2].name;
-        thirdPlaceScore = score[2].score;
-        thirdSet = score[2].Set;
         let bgcolors = [
           { color: "bgBlue" },
           { color: "bgRed" },

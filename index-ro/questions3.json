@@ -1,96 +1,96 @@
 [
   {
-    "question": "Care este capitala Franței?\n",
+    "question": "Care este capitala Franței?",
     "take": "A => Paris\nB => Londra\nC => Berlin\nD => Madrid",
     "answer": "A"
   },
   {
-    "question": "Care este capitala Spaniei?\n",
+    "question": "Care este capitala Spaniei?",
     "take": "A => Paris\nB => Londra\nC => Berlin\nD => Madrid",
     "answer": "D"
   },
   {
-    "intrebare": "Care este capitala Germaniei?\n",
+    "question": "Care este capitala Germaniei?",
     "take": "A => Paris\nB => Londra\nC => Berlin\nD => Madrid",
     "answer": "C"
   },
   {
-    "question": "Care este capitala Italiei?\n",
+    "question": "Care este capitala Italiei?",
     "take": "A => Roma\nB => Londra\nC => Berlin\nD => Madrid",
     "answer": "A"
   },
   {
-    "question": "Care este capitala Poloniei?\n",
+    "question": "Care este capitala Poloniei?",
     "take": "A => Los Angeles\nB => Varsovia\nC => Berlin\nD => Bucuresti",
     "answer": "B"
   },
   {
-    "question": "Care este capitala Ucrainei?\n",
+    "question": "Care este capitala Ucrainei?",
     "take": "A => Paris\nB => Londra\nC => Kiev\nD => Madrid",
     "answer": "C"
   },
   {
-    "question": "Care este capitala Rusiei?\n",
+    "question": "Care este capitala Rusiei?",
     "take": "A => Paris\nB => Londra\nC => Berlin\nD => Moscova",
     "answer": "D"
   },
   {
-    "question": "Care este capitala Belarusului?\n",
+    "question": "Care este capitala Belarusului?",
     "take": "A => Paris\nB => Londra\nC => Berlin\nD => Minsk",
     "answer": "D"
   },
   {
-    "question": "Care este capitala Regatului Unit?\n",
+    "question": "Care este capitala Regatului Unit?",
     "take": "A => Paris\nB => Londra\nC => Berlin\nD => Madrid",
     "answer": "B"
   },
   {
-    "question": "Care este capitala Statelor Unite?\n",
+    "question": "Care este capitala Statelor Unite?",
     "take": "A => Paris\nB => Londra\nC => Washington\nD => Madrid",
     "answer": "C"
   },
   {
-    "question": "Care este capitala Canadei?\n",
+    "question": "Care este capitala Canadei?",
     "take": "A => Paris\nB => Londra\nC => Berlin\nD => Ottawa",
     "answer": "D"
   },
   {
-    "question": "Care este capitala Mexicului?\n",
+    "question": "Care este capitala Mexicului?",
     "take": "A => Mexico City\nB => Londra\nC => Berlin\nD => Paris",
     "answer": "A"
   },
   {
-    "question": "Care este capitala Braziliei?\n",
+    "question": "Care este capitala Braziliei?",
     "take": "A => Paris\nB => Brasilia\nC => Berlin\nD => Londra",
     "answer": "B"
   },
   {
-    "question": "Care este capitala Argentinei?\n",
+    "question": "Care este capitala Argentinei?",
     "take": "A => Buenos Aires\nB => Londra\nC => Berlin\nD => Paris",
     "answer": "A"
   },
   {
-    "question": "Care este capitala Chile?\n",
+    "question": "Care este capitala Chile?",
     "take": "A => Paris\nB => Londra\nC => Berlin\nD => Santiago",
     "answer": "D"
   },
   {
-    "intrebare": "Care este capitala Peru?\n",
+    "question": "Care este capitala Peru?",
     "take": "A => Paris\nB => Lima\nC => Berlin\nD => Madrid",
     "answer": "B"
   },
   {
-    "question": "Care este capitala Columbiei?\n",
+    "question": "Care este capitala Columbiei?",
     "take": "A => Paris\nB => Londra\nC => Berlin\nD => Bogota",
     "answer": "D"
   },
   {
-    "question": "Care este capitala Venezuelei?\n",
+    "question": "Care este capitala Venezuelei?",
     "take": "A => Paris\nB => Londra\nC => Berlin\nD => Caracas",
     "answer": "D"
   },
   {
-    "question": "Care este capitala Ecuadorului?\n",
+    "question": "Care este capitala Ecuadorului?",
     "take": "A => Paris\nB => Quito\nC => Berlin\nD => Londra",
     "answer": "B"
   }

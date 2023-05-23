@@ -21,7 +21,7 @@
   },
   {
     "question": "Câte laturi are un octogon?",
-    "ia": "A => șase\nB => doisprezece\nC => zece\nD => opt",
+    "take": "A => șase\nB => doisprezece\nC => zece\nD => opt",
     "answer": "D"
   },
   {
@@ -36,7 +36,7 @@
   },
   {
     "question": "Câte cărți există în seria Harry Potter?",
-    "ia": "A => șase\nB => șapte\nC => opt\nD => nouă",
+    "take": "A => șase\nB => șapte\nC => opt\nD => nouă",
     "answer": "B"
   },
   {
@@ -50,8 +50,8 @@
     "answer": "C"
   },
   {
-    "intrebare": "De la ce animal provine carnea de porc?",
-    "ia": "A => Vaca\nB => Porc\nC => Pui\nD => Oaie",
+    "question": "De la ce animal provine carnea de porc?",
+    "take": "A => Vaca\nB => Porc\nC => Pui\nD => Oaie",
     "answer": "B"
   },
   {

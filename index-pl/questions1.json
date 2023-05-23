@@ -1,6 +1,6 @@
 [
   {
-    "question": "Jak niedawno udramatyzowano w docenionym przez krytyków miniserialu, w którym roku miała miejsce katastrofa w Czarnobylu?",
+    "question": "W którym roku miała miejsce katastrofa w Czarnobylu?",
     "take":"A => 1986\nB => 1984\nC => 1982\nD => 1980",
     "answer": "A"
   },
@@ -15,7 +15,7 @@
     "answer": "C"
   },
   {
-    "question": "Kto jako jedyny z żon Henryka VIII otrzymał pogrzeb królowej?",
+    "question": "Ktora z żon Henryka VIII jako jedyna otrzymała pogrzeb królowej?",
     "take": "A => Jane Seymour\nB => Jame Kuck\nC => Jon Dwho\nD => Admirał Nelson",
     "answer": "A"
   },
@@ -56,7 +56,7 @@
   },
   {
     "question": "W którym roku miała miejsce katastrofa promu kosmicznego Challenger?",
-    "wziąć": "A => 2002\nB => 1800\nC => 1886\nD => 1986 ",
+    "take": "A => 2002\nB => 1800\nC => 1886\nD => 1986 ",
     "answer": "D"
   },
   {
@@ -65,7 +65,7 @@
     "answer": "C"
   },
   {
-    "question": "Który brytyjski król cierpiał na jąkanie, jak przedstawił Colin Firth w The King's Speech?",
+    "question": "Który brytyjski król cierpiał na jąkanie, jak przedstawił to Colin Firth w The King's Speech?",
     "take": "A => Anna\nB => Król Jerzy VI\nC => Edward VII\nD => Wilhelm IV",
     "answer": "B"
   },
@@ -85,12 +85,12 @@
     "answer": "A"
   },
   {
-    "question": "Którego prawdziwego amerykańskiego żołnierza z pogranicza przedstawił Leonardo DiCaprio w The Revenant?",
+    "question": "Którego amerykańskiego żołnierza z pogranicza przedstawił Leonardo DiCaprio w The Revenant?",
     "take": "A => Jeff Bezos\nB => Hugh Glass\nC => Marcin Luter\nD => Nicole Martin",
-    "anser": "C"
+    "answer": "C"
   },
   {
-    "question": "Który statek słynie z najkrwawszego buntu w historii brytyjskiej marynarki wojennej? (Panswer - to także imię postaci z Harry'ego Pottera?",
+    "question": "Który statek słynie z najkrwawszego buntu w historii brytyjskiej marynarki wojennej? to także imię postaci z Harry'ego Pottera?",
     "take": "A => HMS Duncan\nB => Nelson\nC => HMS Hermiona\nD => Wolność",
     "answer": "C"
   },

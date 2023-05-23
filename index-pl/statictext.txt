@@ -1,10 +1,10 @@
 Witamy w quizie! ::
 Proszę wybrać zestaw pytań → ::
 Jaki zestaw pytań chcesz załadować? ::
-1. Pytania dla dzieci ::
-2. Wersja ogólna 1 ::
-3. Stolice świata ::
-4. Wersja ogólna 2 ::
+1 → Pytania dla dzieci ::
+2 → Wersja ogólna 1 ::
+3 → Stolice świata ::
+4 → Wersja ogólna 2 ::
 Zdecydowałeś → ::
 Nieprawidłowe dane wejściowe! Ładowanie domyślnego zestawu pytań. ::
 Pytania dla dzieci ::
@@ -22,4 +22,4 @@ Prawidłowy! ::
 Masz: z: poprawnych pytań! :
 Zło! : Poprawna odpowiedź to  :
 Masz: z: poprawnych pytań! :
-Chcesz zagrać ponownie? (tak nie) ::
+Chcesz zagrać ponownie? (Yes/Nie) ::

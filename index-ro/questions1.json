@@ -2,101 +2,101 @@
   {
     "question": "Așa cum a fost dramatizat recent într-o miniserie apreciată de critici, în ce an a avut loc dezastrul de la Cernobîl?",
     "take":"A => 1986\nB => 1984\nC => 1982\nD => 1980",
-    "răspuns": "A"
+    "answer": "A"
   },
   {
     "question": "Cine a fost primarul Londrei de patru ori între 1397 și 1419 și a inspirat o poveste populară engleză clasică?",
     "take": "A => Dick Whittington\nB => Manic Adrian\nC => Andrew Pamley\nD => Nicholas Lyons",
-    "răspuns": "A"
+    "answer": "A"
   },
   {
     "question": "Cine a fost al doilea președinte al Statelor Unite?",
     "take": "A => Patricia Adams\nB => Dawin\nC => John Adams\nD => Alexander Hamilton",
-    "răspuns": "C"
+    "answer": "C"
   },
   {
     "question": "Cine a fost singura dintre soțiile lui Henric al VIII-lea care a primit înmormântarea reginei?",
     "take": "A => Jane Seymour\nB => Jame Kuck\nC => Jon Dwho\nD => Amiralul Nelson",
-    "răspuns": "A"
+    "answer": "A"
   },
   {
     "question": "Care arheolog britanic a descoperit mormântul lui Tutankhamon?",
     "take": "A => Robert Brier\nB => Reginald Engelbach\nC => Howard Carter\nD => Alan Gardiner",
-    "răspuns": "C"
+    "answer": "C"
   },
   {
     "question": "Cine a fost liderul nefericitei expediții antarctice a Marii Britanii, care a fost una dintre primele care au ajuns la Polul Sud în 1912?",
     "take": "A => Roald Amundsen\nB => Robert F. Scott\nC => Edward L. Atkinson\nD => Regele Edward al VII-lea",
-    "răspuns": "B"
+    "answer": "B"
   },
   {
     "question": "În ce țară europeană a avut loc un război civil între 1946 și 1949?",
     "take": "A => Franța\nB => Belarus\nC => Germania\nD => Grecia",
-    "raspunde": "D"
+    "answer": "D"
   },
   {
     "question": "Care cavaler scoțian din secolul al XIII-lea l-a portretizat Mel Gibson în Braveheart?",
     "take": "A => William Alexander\nB => William Aitken\nC => William Wallace\nD => Philip Ainslie",
-    "răspuns": "C"
+    "answer": "C"
   },
   {
     "question": "Ce război a fost purtat în Africa de Sud între 1899 și 1902?",
     "take": "A => Al doilea război boer\nB => Război Fulani\nC => Conflict Bakassi în curs\nD => Jihade Fula",
-    "răspuns": "A"
+    "answer": "A"
   },
   {
     "question": "În ce țară au avut loc bătăliile din Al Doilea Război Mondial de la El Alamein?",
     "take": "A => Sudan\nB => Egipt\nC => Pakistan\nD => Libia",
-    "răspuns": "B"
+    "answer": "B"
   },
   {
     "question": "Cine a descoperit epava Titanicului?",
     "take": "A => URSS\nB => Robert Ballard\nC => leonardo DiCaprio\nD => US Navy",
-    "răspuns": "B"
+    "answer": "B"
   },
   {
     "question": "În ce an a avut loc dezastrul navetei spațiale Challenger?",
     "take": "A => 2002\nB => 1800\nC => 1886\nD => 1986 ",
-    "raspunde": "D"
+    "answer": "D"
   },
   {
     "question": "În ce an a fost semnată Carta Magna?",
     "take": "A => 1415\nB => 1151\nC => 1215\nD => 2215",
-    "răspuns": "C"
+    "answer": "C"
   },
   {
     "question": "Care rege britanic a suferit de o bâlbâială, așa cum este portretizat de Colin Firth în Discursul regelui?",
     "take": "A => Anne\nB => Regele George al VI-lea\nC => Edward VII\nD => William IV",
-    "răspuns": "B"
+    "answer": "B"
   },
   {
     "question": "Cum se numea nava care a adus știri despre bătălia de la Trafalgar în Marea Britanie?",
     "take": "A => HMS Belfast\nB => HMS Pickle\nC => HMS Britannia\nD => Titanic",
-    "răspuns": "B"
+    "answer": "B"
   },
   {
     "question": "Care pilot a luptat celebru în Bătălia Marii Britanii cu două picioare artificiale?",
     "take": "A => Johnnie Johnson\nB => Barbara Harmer\nC => Douglas Bader\nD => Cecil Beaton",
-    "răspuns": "C"
+    "answer": "C"
   },
   {
     "question": "În ce an s-a încheiat războiul din Coreea?",
     "take": "A => 1953\nB => 1845\nC => 2007\nD => 1933",
-    "răspuns": "A"
+    "answer": "A"
   },
   {
     "question": "Ce om de frontieră american din viața reală l-a portretizat Leonardo DiCaprio în The Revenant?",
     "take": "A => Jeff Bezos\nB => Hugh Glass\nC => Martin Luter\nD => Nicole Martin",
-    "răspuns": "C"
+    "answer": "C"
   },
   {
     "question": "Care navă este renumită pentru că a experimentat cea mai sângeroasă revoltă din istoria navală britanică? (Sugestie – este și numele unui personaj Harry Potter?",
     "take": "A => HMS Duncan\nB => Nelson\nC => HMS Hermione\nD => Liberty",
-    "răspuns": "C"
+    "answer": "C"
   },
   {
     "question": "Cine a descoperit penicilina?",
     "take": "A => Nikola Tesla\nB => Albert Einstein\nC => Marie Curie\nD => Alexander Fleming",
-    "raspunde": "D"
+    "answer": "D"
   }
 ]

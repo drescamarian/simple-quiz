@@ -5,7 +5,7 @@
     "answer": "D"
   },
   {
-    "question": "Która księżniczka Disneya nazwała przyjaciół Gusa i Jaqa?",
+    "question": "Która księżniczka Disneya miała przyjaciół Gusa i Jaqa?",
     "take": "A => Kopciuszek\nB => Królewna Śnieżka\nC => Belle\nD => Ariel",
     "answer": "A"
   },
@@ -15,7 +15,7 @@
     "answer": "B"
   },
   {
-    "question": "Kto jest sportem narodowym Stanów Zjednoczonych?",
+    "question": "Jaki jest narodowy sport Stanów Zjednoczonych?",
     "take": "A => Baseball\nB => Koszykówka\nC => Futbol amerykański\nD => Hokej na lodzie",
     "answer": "C"
   },
@@ -45,7 +45,7 @@
     "answer": "D"
   },
   {
-    "question": "Jaka data jest Noc Guya Fawkesa?",
+    "question": "Jaka jest data Nocy Guya Fawkesa?",
     "take": "A => 5 stycznia\nB => 5 grudnia\nC => 5 listopada\nD => 5 lutego",
     "answer": "C"
   },
