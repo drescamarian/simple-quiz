@@ -1,0 +1,25 @@
+Witamy w quizie! ::
+Proszę wybrać zestaw pytań → ::
+Jaki zestaw pytań chcesz załadować? ::
+1. Pytania dla dzieci ::
+2. Wersja ogólna 1 ::
+3. Stolice świata ::
+4. Wersja ogólna 2 ::
+Zdecydowałeś → ::
+Nieprawidłowe dane wejściowe! Ładowanie domyślnego zestawu pytań. ::
+Pytania dla dzieci ::
+Wersja ogólna 1 ::
+Stolice świata ::
+Wersja ogólna 2 ::
+Jak masz na imię? → ::
+Cześć: Witamy w quizie! ::
+W tym quizie są: pytania! ::
+Wpisz swoją odpowiedź i naciśnij enter, aby ją przesłać. ::
+Wpisz „exit”, aby wyjść z quizu. ::
+Powodzenia! ::
+Twoja odpowiedź → ::
+Prawidłowy! ::
+Masz: z: poprawnych pytań! :
+Zło! : Poprawna odpowiedź to  :
+Masz: z: poprawnych pytań! :
+Chcesz zagrać ponownie? (tak nie) ::

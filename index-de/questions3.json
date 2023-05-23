@@ -1,0 +1,97 @@
+[
+  {
+    "question": "Was ist die Hauptstadt von Frankreich?\n",
+    "take": "A => Paris\nB => London\nC => Berlin\nD => Madrid",
+    "answer": "A"
+  },
+  {
+    "question": "Was ist die Hauptstadt von Spanien?\n",
+    "take": "A => Paris\nB => London\nC => Berlin\nD => Madrid",
+    "answer": "D"
+  },
+  {
+    "question": "Was ist die Hauptstadt Deutschlands?\n",
+    "take": "A => Paris\nB => London\nC => Berlin\nD => Madrid",
+    "answer": "C"
+  },
+  {
+    "question": "Was ist die Hauptstadt Italiens?\n",
+    "take": "A => Rom\nB => London\nC => Berlin\nD => Madrid",
+    "answer": "A"
+  },
+  {
+    "question": "Was ist die Hauptstadt Polens?\n",
+    "take": "A => Los Angeles\nB => Warschau\nC => Berlin\nD => Bukarest",
+    "answer": "B"
+  },
+  {
+    "question": "Was ist die Hauptstadt der Ukraine?\n",
+    "take": "A => Paris\nB => London\nC => Kiew\nD => Madrid",
+    "answer": "C"
+  },
+  {
+    "question": "Was ist die Hauptstadt Russlands?\n",
+    "take": "A => Paris\nB => London\nC => Berlin\nD => Moskau",
+    "answer": "D"
+  },
+  {
+    "question": "Was ist die Hauptstadt von Weißrussland?\n",
+    "take": "A => Paris\nB => London\nC => Berlin\nD => Minsk",
+    "answer": "D"
+  },
+  {
+    "question": "Was ist die Hauptstadt des Vereinigten Königreichs?\n",
+    "take": "A => Paris\nB => London\nC => Berlin\nD => Madrid",
+    "answer": "B"
+  },
+  {
+    "question": "Was ist die Hauptstadt der Vereinigten Staaten?\n",
+    "take": "A => Paris\nB => London\nC => Washington\nD => Madrid",
+    "answer": "C"
+  },
+  {
+    "question": "Was ist die Hauptstadt Kanadas?\n",
+    "take": "A => Paris\nB => London\nC => Berlin\nD => Ottawa",
+    "answer": "D"
+  },
+  {
+    "question": "Was ist die Hauptstadt von Mexiko?\n",
+    "take": "A => Mexiko-Stadt\nB => London\nC => Berlin\nD => Paris",
+    "answer": "A"
+  },
+  {
+    "question": "Was ist die Hauptstadt Brasiliens?\n",
+    "take": "A => Paris\nB => Brasilia\nC => Berlin\nD => London",
+    "answer": "B"
+  },
+  {
+    "question": "Was ist die Hauptstadt von Argentinien?\n",
+    "take": "A => Buenos Aires\nB => London\nC => Berlin\nD => Paris",
+    "answer": "A"
+  },
+  {
+    "question": "Was ist die Hauptstadt von Chile?\n",
+    "take": "A => Paris\nB => London\nC => Berlin\nD => Santiago",
+    "answer": "D"
+  },
+  {
+    "question": "Was ist die Hauptstadt von Peru?\n",
+    "take": "A => Paris\nB => Lima\nC => Berlin\nD => Madrid",
+    "answer": "B"
+  },
+  {
+    "question": "Was ist die Hauptstadt Kolumbiens?\n",
+    "take": "A => Paris\nB => London\nC => Berlin\nD => Bogota",
+    "answer": "D"
+  },
+  {
+    "question": "Was ist die Hauptstadt von Venezuela?\n",
+    "take": "A => Paris\nB => London\nC => Berlin\nD => Caracas",
+    "answer": "D"
+  },
+  {
+    "question": "Was ist die Hauptstadt von Ecuador?\n",
+    "take": "A => Paris\nB => Quito\nC => Berlin\nD => London",
+    "answer": "B"
+  }
+]

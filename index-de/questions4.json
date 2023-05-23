@@ -1,0 +1,152 @@
+[
+  {
+    "question": "An welchem Teil Ihres Körpers finden Sie das Kreuzband?",
+    "take": "A => Knie\nB => Ellenbogen\nC => Schulter\nD => Knöchel",
+    "answer": "A"
+  },
+  {
+    "question": "Wie heißt der Hauptgegner im Shakespeare-Stück Othello?",
+    "take": "A => Iago\nB => Cassio\nC => Roderigo\nD => Brabantio",
+    "answer": "A"
+  },
+  {
+    "question": "Welches Element wird im Periodensystem mit dem chemischen Symbol Sn bezeichnet?",
+    "take": "A => Zinn\nB => Silber\nC => Titan\nD => Silizium",
+    "answer": "A"
+  },
+  {
+    "question": "Wie viele Frauen Heinrichs VIII. hießen Katharina?",
+    "take": "A => 1\nB => 2\nC => 3\nD => 4",
+    "answer": "C"
+  },
+  {
+    "question": "Was war der beliebteste Mädchenname in Großbritannien im Jahr 2021?",
+    "take": "A => Olivia\nB => Amelia\nC => Isla\nD => Ava",
+    "answer": "A"
+  },
+  {
+    "question": "Wie heißt der Film über den Watergate-Skandal von 1976 mit Robert Redford und Dustin Hoffman?",
+    "take": "A => Nixon\nB => The Post\nC => Frost/Nixon\nD => All the President's Men",
+    "answer": "D"
+  },
+  {
+    "question": "Welcher Komiker war nach Mark Lamarr der zweite ständige Moderator von Never Mind the Buzzcocks?",
+    "take": "A => Rhod Gilbert\nB => Simon Amstell\nC => Noel Fielding\nD => Bill Bailey",
+    "answer": "B"
+  },
+  {
+    "question": "Welche beliebte Videospiel-Franchise hat Spiele mit den Untertiteln World At War und Black Ops veröffentlicht?",
+    "take": "A => Call of Duty\nB => Battlefield\nC => Medal of Honor\nD => Halo",
+    "answer": "A"
+  },
+  {
+    "question": "In welchem US-Bundesstaat liegt die Stadt Nashville?",
+    "take": "A => Alabama\nB => Kentucky\nC => Tennessee\nD => Georgia",
+    "answer": "C"
+  },
+  {
+    "question": "Welche Rockband wurde 1970 von Fred Mercury gegründet?",
+    "take": "A => The Who\nB => The Rolling Stones\nC => The Beatles\nD => Queen",
+    "answer": "D"
+  },
+  {
+    "question": "Welche Währung hat Dänemark?",
+    "take": "A => Euro\nB => Krone\nC => Pfund\nD => Dollar",
+    "answer": "B"
+  },
+  {
+    "question": "Welcher Tennis Grand Slam wird auf Sand gespielt?",
+    "take": "A => French Open\nB => Wimbledon\nC => US Open\nD => Australian Open",
+    "answer": "A"
+  },
+  {
+    "question": "In welchem europäischen Land finden Sie das Rijksmuseum?",
+    "take": "A => Frankreich\nB => Deutschland\nC => Niederlande\nD => Spanien",
+    "answer": "C"
+  },
+  {
+    "question": "In wie vielen Filmen sind Al Pacino und Robert De Niro zusammen aufgetreten?",
+    "take": "A => 4\nB => 3\nC => 2\nD => 1",
+    "answer": "A"
+  },
+  {
+    "question": "Wie lautete der alte Name einer Snickers-Bar, bevor sie 1990 geändert wurde?",
+    "take": "A => Boost\nB => Twix\nC => Marathon\nD => Milky Way",
+    "answer": "C"
+  },
+  {
+    "question": "Wer war das Staatsoberhaupt Japans während des Zweiten Weltkriegs?",
+    "take": "A => Kaiser Meiji\nB => Kaiser Akihito\nC => Kaiser Hirohito\nD => Kaiser Taisho",
+    "answer": "C"
+  },
+  {
+    "question": "Was ist der kleinste Planet in unserem Sonnensystem?",
+    "take": "A => Merkur\nB => Mars\nC => Venus\nD => Erde",
+    "answer": "A"
+  },
+  {
+    "question": "Wer hat die Romane Gone Girl und Sharp Objects geschrieben?",
+    "take": "A => Ruth Ware\nB => Paula Hawkins\nC => Liane Moriarty\nD => Gillian Flynn",
+    "answer": "D"
+  },
+  {
+    "question": "Welcher legendärer surrealistischer Künstler ist berühmt für das Malen schmelzender Uhren?",
+    "take": "A => Salvador Dali\nB => Pablo Picasso\nC => Rene Magritte\nD => Joan Miro",
+    "answer": "A"
+  },
+  {
+    "question": "Welcher Fußballverein trägt seine Heimspiele in der Loftus Road aus?",
+    "take": "A => Fulham\nB => Queens Park Rangers\nC => Chelsea\nD => Arsenal",
+    "answer": "B"
+  },
+  {
+    "question": "Kontinental-USA hat 4 Zeitzonen, können Sie sie benennen?",
+    "take": "A => Alaska, Georgia, Ohaio, Florida\nB => Virginia, LA, New York, San Francisco\nC => Decota, Montania, Alabama, Texas\nD => Pazifik, Berg, Zentral, Ost ",
+    "answer": "D"
+  },
+  {
+    "question": "Wie hieß die türkische Stadt Istanbul vor 1930?",
+    "take": "A => Konstantinopel\nB => Smyrna\nC => Byzanz\nD => Troja",
+    "answer": "Konstantinopel"
+  },
+  {
+    "question": "Aus welcher US-Stadt stammt die Band The Killers?",
+    "take": "A => Las Vegas\nB => Los Angeles\nC => New York\nD => San Francisco",
+    "answer": "Las Vegas"
+  },
+  {
+    "question": "Nennen Sie das Café in der US-Sitcom Friends.",
+    "take": "A => Star Bucks\nB => McDonald\nC => Central Park\nD => 16bins Kaffee und Tee",
+    "answer": "C"
+  },
+  {
+    "question": "Wie viele menschliche Spieler gibt es auf jeder Seite in einem Polospiel?",
+    "take": "A => 4\nB => 3\nC => 2\nD => 1",
+    "answer": "A"
+  },
+  {
+    "question": "In welchem Jahr wurde Tony Blair britischer Premierminister?",
+    "take": "A => 1997\nB => 1998\nC => 1999\nD => 2000",
+    "answer": "A"
+  },
+  {
+    "question": "Wie oft hat England die Fußball-Weltmeisterschaft der Männer gewonnen?",
+    "take": "A => 1\nB => 2\nC => 3\nD => 4",
+    "answer": "A"
+   },
+   {
+     "question": "Was ist die Hauptstadt Neuseelands?",
+     "take": "A => Christchurch\nB => Auckland\nC => Wellington\nD => Hamilton",
+     "answer": "C"
+   },
+   {
+     "question": "Mit welcher britischen Stadt wird der Straßenkünstler Banksy ursprünglich in Verbindung gebracht?",
+     "take": "A => London\nB => Bristol\nC => Manchester\nD => Birmingham",
+     "answer": "B"
+   },
+   {
+     "question": "Aus welchem Getreide wird die japanische Spirituose Sake hergestellt?",
+     "take": "A => Reis\nB => Weizen\nC => Gerste\nD => Roggen",
+     "answer": "A"
+   }
+]

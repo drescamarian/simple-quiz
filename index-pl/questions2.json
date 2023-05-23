@@ -1,0 +1,122 @@
+[
+  {
+    "question": "W jakim zespole był Freddie Mercury przed karierą solową?",
+    "take": "A => One Direction\nB => Beyonce\nC => The Beatles\nD => Queen",
+    "answer": "D"
+  },
+  {
+    "question": "Która księżniczka Disneya nazwała przyjaciół Gusa i Jaqa?",
+    "take": "A => Kopciuszek\nB => Królewna Śnieżka\nC => Belle\nD => Ariel",
+    "answer": "A"
+  },
+  {
+    "question": "Kto jest prezydentem Stanów Zjednoczonych?",
+    "take": "A => Donald Trump\nB => Joe Biden\nC => Barack Obama\nD => George Bush",
+    "answer": "B"
+  },
+  {
+    "question": "Kto jest sportem narodowym Stanów Zjednoczonych?",
+    "take": "A => Baseball\nB => Koszykówka\nC => Futbol amerykański\nD => Hokej na lodzie",
+    "answer": "C"
+  },
+  {
+    "question": "Ile boków ma ośmiokąt?",
+    "take": "A => Sześć\nB => Dwanaście\nC => Dziesięć\nD => Osiem",
+    "answer": "D"
+  },
+  {
+    "question": "Jak nazywa się chłopiec, do którego należą zabawki w filmach Toy Story?",
+    "take": "A => Joe\nB => Billy\nC => Andy\nD => Tom",
+    "answer": "C"
+  },
+  {
+    "question": "Jaka jest stolica Niemiec?",
+    "take": "A => Berlin\nB => Paryż\nC => Londyn\nD => Rzym",
+    "answer": "A"
+  },
+  {
+    "question": "Ile jest książek z serii o Harrym Potterze?",
+    "take": "A => Sześć\nB => Siedem\nC => Osiem\nD => Dziewięć",
+    "answer": "B"
+  },
+  {
+    "question": "Jaki sport uprawia Roger Federer?",
+    "take": "A => Golf\nB => Piłka nożna\nC => Krykiet\nD => Tenis",
+    "answer": "D"
+  },
+  {
+    "question": "Jaka data jest Noc Guya Fawkesa?",
+    "take": "A => 5 stycznia\nB => 5 grudnia\nC => 5 listopada\nD => 5 lutego",
+    "answer": "C"
+  },
+  {
+    "question": "Z jakiego zwierzęcia pochodzi wieprzowina?",
+    "take": "A => Krowa\nB => Świnia\nC => Kura\nD => Owca",
+    "answer": "B"
+  },
+  {
+    "question": "W jakim kraju znalazłbyś Biały Dom?",
+    "take": "A => Francja\nB => Wielka Brytania\nC => USA\nD => Niemcy",
+    "answer": "C"
+  },
+  {
+    "question": "Jakim rodzajem jedzenia jest penne?",
+    "take": "A => Makaron\nB => Pizza\nC => Burger\nD => Kanapka",
+    "answer": "A"
+  },
+  {
+    "question": "Ile dni ma luty w roku przestępnym?",
+    "take": "A => 28\nB => 29\nC => 30\nD => 31",
+    "answer": "B"
+  },
+  {
+    "question": "W jakim kraju można spotkać dziobaka i wombata?",
+    "take": "A => Wielka Brytania\nB => USA\nC => Australia\nD => Francja",
+    "answer": "C"
+  },
+  {
+    "question": "Jak nazywa się brat Super Mario?",
+    "take": "A => Wario\nB => Mario\nC => Luigi\nD => Waluigi",
+    "answer": "C"
+  },
+  {
+    "question": "Jakim stworzeniem jest Shrek?",
+    "take": "A => Elf\nB => Troll\nC => Ogr\nD => Człowiek",
+    "answer": "A"
+  },
+  {
+    "question": "Jakie trzy kolory składają się na francuską flagę?",
+    "take": "A => Czerwony biały żółty\nB => Czerwony biały zielony\nC => Czerwony biały czarny\nD => Czerwony biały niebieski",
+    "answer": "D"
+  },
+  {
+    "question": "W jakim zespole grał Harry Styles przed karierą solową?",
+    "take": "A => One Direction\nB => The Beatles\nC => Queen\nD => Beyonce",
+    "answer": "A"
+  },
+  {
+    "question": "Jakie jedzenie je panda?",
+    "take": "A => Pizza\nB => Bambus\nC => Burger\nD => Kanapka",
+    "answer": "B"
+  },
+  {
+    "question": "Jaka jest najwyższa góra świata?",
+    "take": "A => Mount Rushmore\nB => Kilimandżaro\nC => Mount Fuji\nD => Mount Everest",
+    "answer": "D"
+  },
+  {
+    "question": "W jakim programie są pociągi o nazwie James i Gordon?",
+    "take": "A => Paw Patrol\nB => Świnka Peppa\nC => Lokomotywa Tomek\nD => SpongeBob Kanciastoporty",
+    "answer": "C"
+  },
+  {
+    "question": "Jakim zwierzęciem jest chart?",
+    "take": "A => Kot\nB => Pies\nC => Koń\nD => Ptak",
+    "answer": "B"
+  },
+  {
+    "question": "Ilu graczy jest w drużynie rugby?",
+    "take": "A => 12\nB => 13\nC => 14\nD => 15",
+    "answer": "D"
+  }
+]

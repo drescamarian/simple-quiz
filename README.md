@@ -1,7 +1,7 @@
 # simple-quiz
-version: 1.0.0 = old version
+## version: 1.0.0 = old version
 - Simple Quiz App with Node.js and readline-sync module
-version: 1.0.1 = new version
+## version: 1.0.1 = old version
 - add test for the functions
 - add questions and answers to a json file and randomize the questions and only show 5 questions
 - add a score at the end of the quiz
@@ -11,7 +11,7 @@ version: 1.0.1 = new version
 - now you have all questions and you have to answer all of them
 - if you answer wrong you ended the game session
 - if you answer right you get a point and you can continue
-version: 1.0.2 = new version
+## version: 1.0.2 = old version
 - add a new function to the game
 - now you can choose between 4 different categories
 - for each question you get 4 answers only one is right
@@ -19,12 +19,16 @@ version: 1.0.2 = new version
 - add a new highscore list for each category
 - add a new best of 3 player list for each category
 - modify the playAgain function to begen at the start of the game
+## version: 1.0.3 = new version
+- add a new function to the game
+- add more languages to the game 'EN - DE - RO - PL'
+- add colors to the game
+- add 'statictext.txt' file for the static text in the game to be able to change the text without changing the code
 
 # future updates
 - add a new function to the game
 - add a timer to the game with different difficulty levels 5 sec, 10 sec, 15 sec etc.
 - add a new highscore list for each category with the timer
-- add a new best of 3 player list for each category with the timer
 
 # disclaimer
 - this is a simple quiz app for the DCI course

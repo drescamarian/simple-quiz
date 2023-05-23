@@ -1,0 +1,97 @@
+[
+  {
+    "question": "Care este capitala Franței?\n",
+    "take": "A => Paris\nB => Londra\nC => Berlin\nD => Madrid",
+    "answer": "A"
+  },
+  {
+    "question": "Care este capitala Spaniei?\n",
+    "take": "A => Paris\nB => Londra\nC => Berlin\nD => Madrid",
+    "answer": "D"
+  },
+  {
+    "intrebare": "Care este capitala Germaniei?\n",
+    "take": "A => Paris\nB => Londra\nC => Berlin\nD => Madrid",
+    "answer": "C"
+  },
+  {
+    "question": "Care este capitala Italiei?\n",
+    "take": "A => Roma\nB => Londra\nC => Berlin\nD => Madrid",
+    "answer": "A"
+  },
+  {
+    "question": "Care este capitala Poloniei?\n",
+    "take": "A => Los Angeles\nB => Varsovia\nC => Berlin\nD => Bucuresti",
+    "answer": "B"
+  },
+  {
+    "question": "Care este capitala Ucrainei?\n",
+    "take": "A => Paris\nB => Londra\nC => Kiev\nD => Madrid",
+    "answer": "C"
+  },
+  {
+    "question": "Care este capitala Rusiei?\n",
+    "take": "A => Paris\nB => Londra\nC => Berlin\nD => Moscova",
+    "answer": "D"
+  },
+  {
+    "question": "Care este capitala Belarusului?\n",
+    "take": "A => Paris\nB => Londra\nC => Berlin\nD => Minsk",
+    "answer": "D"
+  },
+  {
+    "question": "Care este capitala Regatului Unit?\n",
+    "take": "A => Paris\nB => Londra\nC => Berlin\nD => Madrid",
+    "answer": "B"
+  },
+  {
+    "question": "Care este capitala Statelor Unite?\n",
+    "take": "A => Paris\nB => Londra\nC => Washington\nD => Madrid",
+    "answer": "C"
+  },
+  {
+    "question": "Care este capitala Canadei?\n",
+    "take": "A => Paris\nB => Londra\nC => Berlin\nD => Ottawa",
+    "answer": "D"
+  },
+  {
+    "question": "Care este capitala Mexicului?\n",
+    "take": "A => Mexico City\nB => Londra\nC => Berlin\nD => Paris",
+    "answer": "A"
+  },
+  {
+    "question": "Care este capitala Braziliei?\n",
+    "take": "A => Paris\nB => Brasilia\nC => Berlin\nD => Londra",
+    "answer": "B"
+  },
+  {
+    "question": "Care este capitala Argentinei?\n",
+    "take": "A => Buenos Aires\nB => Londra\nC => Berlin\nD => Paris",
+    "answer": "A"
+  },
+  {
+    "question": "Care este capitala Chile?\n",
+    "take": "A => Paris\nB => Londra\nC => Berlin\nD => Santiago",
+    "answer": "D"
+  },
+  {
+    "intrebare": "Care este capitala Peru?\n",
+    "take": "A => Paris\nB => Lima\nC => Berlin\nD => Madrid",
+    "answer": "B"
+  },
+  {
+    "question": "Care este capitala Columbiei?\n",
+    "take": "A => Paris\nB => Londra\nC => Berlin\nD => Bogota",
+    "answer": "D"
+  },
+  {
+    "question": "Care este capitala Venezuelei?\n",
+    "take": "A => Paris\nB => Londra\nC => Berlin\nD => Caracas",
+    "answer": "D"
+  },
+  {
+    "question": "Care este capitala Ecuadorului?\n",
+    "take": "A => Paris\nB => Quito\nC => Berlin\nD => Londra",
+    "answer": "B"
+  }
+]

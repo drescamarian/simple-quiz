@@ -1,0 +1,25 @@
+Willkommen beim Quiz! ::
+Bitte wählen Sie den Fragensatz → ::
+Welchen Fragensatz möchten Sie laden? ::
+1. Kinderfragen ::
+2. Allgemeine Version 1 ::
+3. Welthauptstädte ::
+4. Allgemeine Version 2 ::
+Du hast dich entschieden → ::
+Ungültige Eingabe! Standardfragensatz wird geladen. ::
+Kinderfragen ::
+Allgemeine Version 1 ::
+Welthauptstädte ::
+Allgemeine Version 2 ::
+Wie heissen Sie? → ::
+Hallo: Willkommen zum Quiz! ::
+Es gibt: Fragen in diesem Quiz! ::
+Geben Sie Ihre Antwort ein und drücken Sie die Eingabetaste, um sie abzusenden. ::
+Geben Sie „exit“ ein, um das Quiz zu verlassen. ::
+Viel Glück! ::
+Ihre Antwort → ::
+Richtig! ::
+Du hast : aus : Fragen richtig beantwortet! :
+Falsch! : Die richtige Antwort ist  :
+Du hast : aus : Fragen richtig beantwortet! :
+Willst du noch einmal spielen? (ja Nein) ::

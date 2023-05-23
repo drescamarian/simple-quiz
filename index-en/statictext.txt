@@ -1,0 +1,25 @@
+Welcome to the quiz! ::
+Please choose questions set → ::
+What question's set do you want to load? ::
+1. Kids questions ::
+2. General Version 1 ::
+3. World Capitals ::
+4. General Version 2 ::
+You decided → ::
+Invalid input! Loading default questions set. ::
+Kids questions ::
+General Version 1 ::
+World Capitals ::
+General Version 2 ::
+What is your name? → ::
+Hello : Welcome to the quiz! ::
+There are : questions in this quiz! ::
+Type your answer and press enter to submit it. ::
+Type 'exit' to exit the quiz. ::
+Good luck! ::
+Your answer → ::
+Correct! ::
+You got : out of : questions correct! :
+Wrong! : The correct answer is  :
+You got : out of : questions correct! :
+Do you want to play again? (yes/no) ::

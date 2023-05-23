@@ -1,0 +1,122 @@
+[
+  {
+    "question": "In welcher Band war Freddie Mercury vor seiner Solokarriere?",
+    "take": "A => One Direction\nB => Beyonce\nC => The Beatles\nD => Queen",
+    "answer": "D"
+  },
+  {
+    "question": "Welche Disney-Prinzessin nennt Gus und Jaq Freunde?",
+    "take": "A => Aschenputtel\nB => Schneewittchen\nC => Belle\nD => Ariel",
+    "answer": "A"
+  },
+  {
+    "question": "Wer ist der Präsident der Vereinigten Staaten?",
+    "take": "A => Donald Trump\nB => Joe Biden\nC => Barack Obama\nD => George Bush",
+    "answer": "B"
+  },
+  {
+    "question": "Wer ist der Nationalsport der Vereinigten Staaten?",
+    "take": "A => Baseball\nB => Basketball\nC => American Football\nD => Eishockey",
+    "answer": "C"
+  },
+  {
+    "question": "Wie viele Seiten hat ein Achteck?",
+    "take": "A => Sechs\nB => Zwölf\nC => Zehn\nD => Acht",
+    "answer": "D"
+  },
+  {
+    "question": "Wie heißt in den Toy Story-Filmen der Junge, dem die Spielzeuge gehören?",
+    "take": "A => Joe\nB => Billy\nC => Andy\nD => Tom",
+    "answer": "C"
+  },
+  {
+    "question": "Was ist die Hauptstadt von Deutschland?",
+    "take": "A => Berlin\nB => Paris\nC => London\nD => Rom",
+    "answer": "A"
+  },
+  {
+    "question": "Wie viele Bücher gibt es in der Harry-Potter-Reihe?",
+    "take": "A => Sechs\nB => Sieben\nC => Acht\nD => Neun",
+    "answer": "B"
+  },
+  {
+    "question": "Welche Sportart betreibt Roger Federer?",
+    "take": "A => Golf\nB => Fußball\nC => Cricket\nD => Tennis",
+    "answer": "D"
+  },
+  {
+    "question": "Welches Datum ist Guy-Fawkes-Nacht?",
+    "take": "A => 5. Januar\nB => 5. Dezember\nC => 5. November\nD => 5. Februar",
+    "answer": "C"
+  },
+  {
+    "question": "Von welchem Tier stammt Schweinefleisch?",
+    "take": "A => Kuh\nB => Schwein\nC => Huhn\nD => Schaf",
+    "answer": "B"
+  },
+  {
+    "question": "In welchem Land finden Sie das Weiße Haus?",
+    "take": "A => Frankreich\nB => Großbritannien\nC => USA\nD => Deutschland",
+    "answer": "C"
+  },
+  {
+    "question": "Was für ein Essen ist Penne?",
+    "take": "A => Pasta\nB => Pizza\nC => Burger\nD => Sandwich",
+    "answer": "A"
+  },
+  {
+    "question": "Wie viele Tage hat der Februar in einem Schaltjahr?",
+    "take": "A => 28\nB => 29\nC => 30\nD => 31",
+    "answer": "B"
+  },
+  {
+    "question": "In welchem Land könnte man ein Schnabeltier und einen Wombat finden?",
+    "take": "A => UK\nB => USA\nC => Australien\nD => Frankreich",
+    "answer": "C"
+  },
+  {
+    "question": "Wie heißt Super Marios Bruder?",
+    "take": "A => Wario\nB => Mario\nC => Luigi\nD => Waluigi",
+    "answer": "C"
+  },
+  {
+    "question": "Was für eine Kreatur ist Shrek?",
+    "take": "A => Elf\nB => Troll\nC => Oger\nD => Mensch",
+    "answer": "A"
+  },
+  {
+    "question": "Aus welchen drei Farben besteht die französische Flagge?",
+    "take": "A => Rot weiß gelb\nB => Rot weiß grün\nC => Rot weiß schwarz\nD => Rot weiß blau",
+    "answer": "D"
+  },
+  {
+    "question": "In welcher Band war Harry Styles vor seiner Solokarriere?",
+    "take": "A => One Direction\nB => The Beatles\nC => Queen\nD => Beyonce",
+    "answer": "A"
+  },
+  {
+    "question": "Welche Nahrung frisst ein Panda?",
+    "take": "A => Pizza\nB => Bambus\nC => Burger\nD => Sandwich",
+    "answer": "B"
+  },
+  {
+    "question": "Was ist der höchste Berg der Welt?",
+    "take": "A => Mount Rushmore\nB => Mount Kilimanjaro\nC => Mount Fuji\nD => Mount Everest",
+    "answer": "D"
+  },
+  {
+    "question": "Welches Programm beinhaltet Züge namens James und Gordon?",
+    "take": "A => Paw Patrol\nB => Peppa Pig\nC => Thomas die kleine Lokomotive\nD => Spongebob Schwammkopf",
+    "answer": "C"
+  },
+  {
+    "question": "Was für ein Tier ist ein Windhund?",
+    "take": "A => Katze\nB => Hund\nC => Pferd\nD => Vogel",
+    "answer": "B"
+  },
+  {
+    "question": "Wie viele Spieler gibt es in einer Rugbymannschaft?",
+    "take": "A => 12\nB => 13\nC => 14\nD => 15",
+    "answer": "D"
+  }
+]

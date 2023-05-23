@@ -1,0 +1,102 @@
+[
+  {
+    "question": "In welchem Jahr ereignete sich die Katastrophe von Tschernobyl, wie kürzlich in einer von der Kritik gefeierten Miniserie dramatisiert wurde?",
+    "take": "A => 1986\nB => 1984\nC => 1982\nD => 1980",
+    "answer": "A"
+  },
+  {
+    "question": "Wer war zwischen 1397 und 1419 viermal Oberbürgermeister von London und die Inspiration für ein klassisches englisches Volksmärchen?",
+    "take": "A => Dick Whittington\nB => Manic Adrian\nC => Andrew Pamley\nD => Nicholas Lyons",
+    "answer": "A"
+  },
+  {
+    "question": "Wer war der zweite Präsident der Vereinigten Staaten?",
+    "take": "A => Patricia Adams\nB => Dawin\nC => John Adams\nD => Alexander Hamilton",
+    "answer": "C"
+  },
+  {
+    "question": "Wer war die einzige Ehefrau Heinrichs VIII., die das Begräbnis einer Königin empfing?",
+    "take": "A => Jane Seymour\nB => Jame Kuck\nC => Jon Dwho\nD => Admiral Nelson",
+    "answer": "A"
+  },
+  {
+    "question": "Welcher britischer Archäologe hat Tutanchamuns Grab entdeckt?",
+    "take": "A => Robert Brier\nB => Reginald Engelbach\nC => Howard Carter\nD => Alan Gardiner",
+    "answer": "C"
+  },
+  {
+    "question": "Wer war der Anführer der unglücklichen britischen Antarktisexpedition, die 1912 als eine der ersten den Südpol erreichte?",
+    "take": "A => Roald Amundsen\nB => Robert F. Scott\nC => Edward L. Atkinson\nD => König Edward VII",
+    "answer": "B"
+  },
+  {
+    "question": "In welchem europäischen Land gab es zwischen 1946 und 1949 einen Bürgerkrieg?",
+    "take": "A => Frankreich\nB => Weißrussland\nC => Deutschland\nD => Griechenland",
+    "answer": "D"
+  },
+  {
+    "question": "Welchen schottischen Ritter aus dem 13. Jahrhundert hat Mel Gibson in Braveheart dargestellt?",
+    "take": "A => William Alexander\nB => William Aitken\nC => William Wallace\nD => Philip Ainslie",
+    "answer": "C"
+  },
+  {
+    "question": "Welcher Krieg wurde zwischen 1899 und 1902 in Südafrika geführt?",
+    "take": "A => Zweiter Burenkrieg\nB => Fulani-Krieg\nC => Andauernder Bakassi-Konflikt\nD => Fula-Dschihads",
+    "answer": "A"
+  },
+  {
+    "question": "In welchem Land fanden die Schlachten von El Alamein im Zweiten Weltkrieg statt?",
+    "take": "A => Sudan\nB => Ägypten\nC => Pakistan\nD => Libyen",
+    "answer": "B"
+  },
+  {
+    "question": "Wer hat das Wrack der Titanic entdeckt?",
+    "take": "A => URSS\nB => Robert Ballard\nC => Leonardo DiCaprio\nD => US Navy",
+    "answer": "B"
+  },
+  {
+    "question": "In welchem Jahr ereignete sich die Katastrophe mit dem Challenger Space Shuttle?",
+    "take": "A => 2002\nB => 1800\nC => 1886\nD => 1986",
+    "answer": "D"
+  },
+  {
+    "question": "In welchem Jahr wurde die Magna Carta unterzeichnet?",
+    "take": "A => 1415\nB => 1151\nC => 1215\nD => 2215",
+    "answer": "C"
+  },
+  {
+    "question": "Welcher britische König litt unter einem Stottern, wie es von Colin Firth in 'The King's Speech' dargestellt wird?",
+    "take": "A => Anne\nB => König Georg VI\nC => Edward VII\nD => Wilhelm IV",
+    "answer": "B"
+  },
+  {
+    "question": "Wie hieß das Schiff, das die Nachricht von der Schlacht von Trafalgar nach Großbritannien brachte?",
+    "take": "A => HMS Belfast\nB => HMS Pickle\nC => HMS Britannia\nD => Titanic",
+    "answer": "B"
+  },
+  {
+    "question": "Welcher Pilot kämpfte bekanntermaßen in der Luftschlacht um England mit zwei künstlichen Beinen?",
+    "take": "A => Johnnie Johnson\nB => Barbara Harmer\nC => Douglas Bader\nD => Cecil Beaton",
+    "answer": "C"
+  },
+  {
+    "question": "In welchem Jahr endete der Koreakrieg?",
+    "take": "A => 1953\nB => 1845\nC => 2007\nD => 1933",
+    "answer": "A"
+  },
+  {
+    "question": "Welchen echten amerikanischen Grenzgänger hat Leonardo DiCaprio in 'The Revenant' dargestellt?",
+    "take": "A => Jeff Bezos\nB => Hugh Glass\nC => Martin Luter\nD => Nicole Martin",
+    "answer": "C"
+  },
+  {
+    "question": "Welches Schiff ist dafür berüchtigt, die blutigste Meuterei in der Geschichte der britischen Marine zu erleben? (Hinweis – es ist auch der Name einer Harry-Potter-Figur?",
+    "take": "A => HMS Duncan\nB => Nelson\nC => HMS Hermine\nD => Liberty",
+    "answer": "C"
+  },
+  {
+    "question": "Wer hat Penicillin entdeckt?",
+    "take": "A => Nikola Tesla\nB => Albert Einstein\nC => Marie Curie\nD => Alexander Fleming",
+    "answer": "D"
+  }
+]

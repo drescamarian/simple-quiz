@@ -1,0 +1,122 @@
+[
+  {
+    "question": "În ce trupă era Freddie Mercury înainte de cariera sa solo?",
+    "take": "A => One Direction\nB => Beyonce\nC => The Beatles\nD => Queen",
+    "answer": "D"
+  },
+  {
+    "question": "Care prințesă Disney i-a numit prieteni pe Gus și Jaq?",
+    "take": "A => Cenusareasa\nB => Alba ca Zapada\nC => Belle\nD => Ariel",
+    "answer": "A"
+  },
+  {
+    "question": "Cine este președintele Statelor Unite?",
+    "take": "A => Donald Trump\nB => Joe Biden\nC => Barack Obama\nD => George Bush",
+    "answer": "B"
+  },
+  {
+    "question": "Cine este sportul național al Statelor Unite?",
+    "take": "A => Baseball\nB => Baschet\nC => Fotbal american\nD => Hochei pe gheață",
+    "answer": "C"
+  },
+  {
+    "question": "Câte laturi are un octogon?",
+    "ia": "A => șase\nB => doisprezece\nC => zece\nD => opt",
+    "answer": "D"
+  },
+  {
+    "question": "În filmele Toy Story, cum se numește băiatul căruia îi aparțin jucăriile?",
+    "take": "A => Joe\nB => Billy\nC => Andy\nD => Tom",
+    "answer": "C"
+  },
+  {
+    "question": "Care este capitala Germaniei?",
+    "take": "A => Berlin\nB => Paris\nC => Londra\nD => Roma",
+    "answer": "A"
+  },
+  {
+    "question": "Câte cărți există în seria Harry Potter?",
+    "ia": "A => șase\nB => șapte\nC => opt\nD => nouă",
+    "answer": "B"
+  },
+  {
+    "question": "Ce sport joacă Roger Federer?",
+    "take": "A => Golf\nB => Fotbal\nC => Cricket\nD => Tenis",
+    "answer": "D"
+  },
+  {
+    "question": "La ce dată este noaptea lui Guy Fawkes?",
+    "take": "A => 5 ianuarie\nB => 5 decembrie\nC => 5 noiembrie\nD => 5 februarie",
+    "answer": "C"
+  },
+  {
+    "intrebare": "De la ce animal provine carnea de porc?",
+    "ia": "A => Vaca\nB => Porc\nC => Pui\nD => Oaie",
+    "answer": "B"
+  },
+  {
+    "question": "În ce țară ați găsi Casa Albă?",
+    "take": "A => Franța\nB => Marea Britanie\nC => SUA\nD => Germania",
+    "answer": "C"
+  },
+  {
+    "question": "Ce fel de mâncare este Penne?",
+    "take": "A => Paste\nB => Pizza\nC => Burger\nD => Sandwich",
+    "answer": "A"
+  },
+  {
+    "question": "Câte zile sunt în februarie într-un an bisect?",
+    "take": "A => 28\nB => 29\nC => 30\nD => 31",
+    "answer": "B"
+  },
+  {
+    "question": "În ce țară ai putea găsi un ornitorin și un wombat?",
+    "take": "A => UK\nB => SUA\nC => Australia\nD => Franța",
+    "answer": "C"
+  },
+  {
+    "intrebare": "Cum se numeste fratele lui Super Mario?",
+    "take": "A => Wario\nB => Mario\nC => Luigi\nD => Waluigi",
+    "answer": "C"
+  },
+  {
+    "question": "Ce fel de creatură este Shrek?",
+    "take": "A => Elf\nB => Troll\nC => Căpcăun\nD => Om",
+    "answer": "A"
+  },
+  {
+    "question": "Ce trei culori alcătuiesc steagul francez?",
+    "take": "A => Roșu alb galben\nB => Roșu alb verde\nC => Roșu alb negru\nD => Roșu alb albastru",
+    "answer": "D"
+  },
+  {
+    "question": "În ce trupă era Harry Styles înainte de cariera sa solo?",
+    "take": "A => One Direction\nB => The Beatles\nC => Queen\nD => Beyonce",
+    "answer": "A"
+  },
+  {
+    "question": "Ce fel de mâncare mănâncă un panda?",
+    "take": "A => Pizza\nB => Bambus\nC => Burger\nD => Sandviș",
+    "answer": "B"
+  },
+  {
+    "question": "Care este cel mai înalt munte din lume?",
+    "take": "A => Muntele Rushmore\nB => Muntele Kilimanjaro\nC => Muntele Fuji\nD => Muntele Everest",
+    "answer": "D"
+  },
+  {
+    "question": "Ce program include trenuri numite James și Gordon?",
+    "take": "A => Patrula laba\nB => Peppa Pig\nC => Thomas the Tank Engine\nD => Spongebob Squarepants",
+    "answer": "C"
+  },
+  {
+    "question": "Ce tip de animal este un ogar?",
+    "take": "A => Pisica\nB => Câine\nC => Cal\nD => Pasăre",
+    "answer": "B"
+  },
+  {
+    "question": "Câți jucători sunt într-o echipă de rugby?",
+    "take": "A => 12\nB => 13\nC => 14\nD => 15",
+    "answer": "D"
+  }
+]

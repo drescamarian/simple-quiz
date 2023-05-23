@@ -1,0 +1,152 @@
+[
+  {
+    "question": "În ce parte a corpului tău ai găsi ligamentul încrucișat?",
+    "take": "A => Genunchi\nB => Cot\nC => Umăr\nD => Gleznă",
+    "answer": "A"
+  },
+  {
+    "question": "Care este numele principalului antagonist din piesa Shakespeare Othello?",
+    "take": "A => Iago\nB => Cassio\nC => Roderigo\nD => Brabantio",
+    "answer": "A"
+  },
+  {
+    "question": "Ce element este notat cu simbolul chimic Sn în tabelul periodic?",
+    "take": "A => Staniu\nB => Argint\nC => Titan\nD => Siliciu",
+    "answer": "A"
+  },
+  {
+    "question": "Câte dintre soțiile lui Henric al VIII-lea se numeau Catherine?",
+    "take": "A => 1\nB => 2\nC => 3\nD => 4",
+    "answer": "C"
+  },
+  {
+    "question": "Care a fost cel mai popular nume de fete din Marea Britanie în 2021?",
+    "take": "A => Olivia\nB => Amelia\nC => Isla\nD => Ava",
+    "answer": "A"
+  },
+  {
+    "question": "Cum se numește filmul din 1976 despre scandalul Watergate, cu Robert Redford și Dustin Hoffman în rolurile principale?",
+    "take": "A => Nixon\nB => The Post\nC => Frost/Nixon\nD => Toți oamenii președintelui",
+    "answer": "D"
+  },
+  {
+    "question": "Care comedian a fost a doua gazdă permanentă a filmului Never Mind the Buzzcocks după Mark Lamarr?",
+    "take": "A => Rhod Gilbert\nB => Simon Amstell\nC => Noel Fielding\nD => Bill Bailey",
+    "answer": "B"
+  },
+  {
+    "question": "Ce franciză populară de jocuri video a lansat jocuri cu subtitrarea World At War și Black Ops?",
+    "take": "A => Call of Duty\nB => Battlefield\nC => Medal of Honor\nD => Halo",
+    "answer": "A"
+  },
+  {
+    "question": "În ce stat american este orașul Nashville?",
+    "take": "A => Alabama\nB => Kentucky\nC => Tennessee\nD => Georgia",
+    "answer": "C"
+  },
+  {
+    "question": "Care trupă rock a fost fondată de Fred Mercury în 1970?",
+    "take": "A => The Who\nB => The Rolling Stones\nC => The Beatles\nD => Queen",
+    "answer": "D"
+  },
+  {
+    "question": "Care este moneda Danemarcei?",
+    "take": "A => Euro\nB => Coroană\nC => Liră\nD => Dolar",
+    "answer": "B"
+  },
+  {
+    "question": "Ce Tenis Grand Slam se joacă pe o suprafață de lut?",
+    "take": "A => French Open\nB => Wimbledon\nC => US Open\nD => Australian Open",
+    "answer": "A"
+  },
+  {
+    "question": "În ce țară europeană ați găsi Rijksmuseum?",
+    "take": "A => Franța\nB => Germania\nC => Țările de Jos\nD => Spania",
+    "answer": "C"
+  },
+  {
+    "question": "În câte filme au apărut împreună Al Pacino și Robert De Niro?",
+    "take": "A => 4\nB => 3\nC => 2\nD => 1",
+    "answer": "A"
+  },
+  {
+    "question": "Care era vechiul nume pentru un bar Snickers înainte de a se schimba în 1990?",
+    "take": "A => Boost\nB => Twix\nC => Maraton\nD => Calea Lactee",
+    "answer": "C"
+  },
+  {
+    "question": "Cine a fost șeful statului în Japonia în timpul celui de-al doilea război mondial?",
+    "take": "A => Împăratul Meiji\nB => Împăratul Akihito\nC => Împăratul Hirohito\nD => Împăratul Taisho",
+    "answer": "C"
+  },
+  {
+    "question": "Care este cea mai mică planetă din sistemul nostru solar?",
+    "take": "A => Mercur\nB => Marte\nC => Venus\nD => Pământ",
+    "answer": "A"
+  },
+  {
+    "question": "Cine a scris romanele Gone Girl și Sharp Objects?",
+    "take": "A => Ruth Ware\nB => Paula Hawkins\nC => Liane Moriarty\nD => Gillian Flynn",
+    "answer": "D"
+  },
+  {
+    "question": "Care artist legendar suprarealist este renumit pentru pictarea ceasurilor care se topesc?",
+    "take": "A => Salvador Dali\nB => Pablo Picasso\nC => Rene Magritte\nD => Joan Miro",
+    "answer": "A"
+  },
+  {
+    "question": "Ce club de fotbal își joacă jocurile acasă pe Loftus Road?",
+    "take": "A => Fulham\nB => Queens Park Rangers\nC => Chelsea\nD => Arsenal",
+    "answer": "B"
+  },
+  {
+    "question": "Statele Unite ale Americii continentale au 4 fusuri orare, le puteți numi?",
+    "take": "A => Alaska, Georgia, Ohaio, Florida\nB => Virginia, LA, New Yourk, San Fransico\nC => Decota, Montania, Alabama, Texas\nD => Pacific, Munte, Central, Est ",
+    "answer": "D"
+  },
+  {
+    "question": "Cum se numea orașul turc Istanbul înainte de 1930?",
+    "take": "A => Constantinopol\nB => Smirna\nC => Bizanț\nD => Troia",
+    "answer": "Constantinopol"
+  },
+  {
+    "question": "Din ce oraș din SUA provine trupa The Killers?",
+    "take": "A => Las Vegas\nB => Los Angeles\nC => New York\nD => San Francisco",
+    "answer": "Las Vegas"
+  },
+  {
+    "question": "Denumește cafeneaua din sitcomul american Friends.",
+    "take": "A => Star Bucks\nB => McDonald\nC => Central Park\nD => 16 cutii de cafea și ceai",
+    "answer": "C"
+  },
+  {
+    "question": "Câți jucători umani sunt de fiecare parte într-un meci de polo?",
+    "take": "A => 4\nB => 3\nC => 2\nD => 1",
+    "answer": "A"
+  },
+  {
+    "question": "În ce an a devenit Tony Blair prim-ministru britanic?",
+    "take": "A => 1997\nB => 1998\nC => 1999\nD => 2000",
+    "answer": "A"
+  },
+  {
+    "question": "De câte ori a câștigat Anglia Cupa Mondială de fotbal masculin?",
+    "take": "A => 1\nB => 2\nC => 3\nD => 4",
+    "answer": "A"
+   },
+   {
+     "question": "Care este capitala Noii Zeelande?",
+     "take": "A => Christchurch\nB => Auckland\nC => Wellington\nD => Hamilton",
+     "answer": "C"
+   },
+   {
+     "question": "Artistul stradal Banksy este asociat inițial cu ce oraș britanic?",
+     "take": "A => Londra\nB => Bristol\nC => Manchester\nD => Birmingham",
+     "answer": "B"
+   },
+   {
+     "question": "Din ce cereale se face spiritul japonez Sake?",
+     "take": "A => Orez\nB => Grâu\nC => Orz\nD => Secara",
+     "answer": "A"
+   }
+]

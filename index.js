@@ -1,32 +1,82 @@
 import readline from "readline";
 import chalk from "chalk";
 import fs from "fs";
-import { dirname } from "path";
-import path from "path";
+import path, { dirname } from "path";
 import { fileURLToPath } from "url";
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
 });
-
 const __dirname = dirname(fileURLToPath(import.meta.url));
-
 const quiz = {
   questions: [],
   currentQuestion: 0,
   score: 0,
   name: "",
   askQuestionsSets: "",
+  text: [],
+  static: [],
+  language: "",
+  // Ask the user for the language
+  askLanguage: function () {
+    // console.clear();
+    rl.question(
+      "Choose your language: \n1. English\n2. German\n3. Romana\n4. Polszczyzna\n",
+      (answer) => {
+        console.clear();
+        let filepath = "";
+        if (answer == 1) {
+          filepath = "en";
+        } else if (answer == 2) {
+          filepath = "de";
+        } else if (answer == 3) {
+          filepath = "ro";
+        } else if (answer == 4) {
+          filepath = "pl";
+        } else {
+          console.log("Please choose a number from 1 to 4");
+          this.askLanguage();
+          return;
+        }
+        this.language += "/index-" + filepath;
+        this.text = fs.readFileSync(
+          path.join(__dirname, `/index-${filepath}`, `statictext.txt`),
+          "utf-8"
+        );
+        this.static = this.text.split("\n").map((line) => {
+          if (line !== "") {
+            let first = line.split(":")[0];
+            let second = line.split(":")[1];
+            let therd = line.split(":")[2];
+            return { first, second, therd };
+          }
+        });
+        this.askQuestionSet();
+      }
+    );
+  },
   // Ask the user for the questions set and load the questions
   askQuestionSet: function () {
     console.clear();
+    console.log(chalk.yellow(this.static[0].first));
+    console.log(chalk.yellow(this.static[1].first));
     rl.question(
-      "What questions set do you want to load?\n1. Kids questions\n2. General questions\n3. World Capitals\n4. General questions v2\nYour chose => ",
+      this.static[2].first +
+        "\n" +
+        this.static[3].first +
+        "\n" +
+        this.static[4].first +
+        "\n" +
+        this.static[5].first +
+        "\n" +
+        this.static[6].first +
+        "\n" +
+        this.static[7].first,
       (answer) => {
         if (answer > 0 && answer <= 4) {
           this.loadQuestion(answer);
         } else {
-          console.log("Invalid input! Loading default questions set.");
+          console.log(this.static[8].first);
           this.askQuestionSet();
           return;
         }
@@ -36,36 +86,45 @@ const quiz = {
 
   loadQuestion: function (load) {
     let readQuescion = JSON.parse(
-      fs.readFileSync(path.join(__dirname, `questions${load}.json`), "utf-8")
+      fs.readFileSync(
+        path.join(__dirname, this.language, `questions${load}.json`),
+        "utf-8"
+      )
     );
     let shuffle = readQuescion.sort(() => Math.random() - 0.5);
     this.questions = shuffle;
     if (load == 1) {
-      this.askQuestionsSets = "Kids questions";
+      this.askQuestionsSets = this.static[9].first;
     }
     if (load == 2) {
-      this.askQuestionsSets = "General questions";
+      this.askQuestionsSets = this.static[10].first;
     }
     if (load == 3) {
-      this.askQuestionsSets = "World Capitals";
+      this.askQuestionsSets = this.static[11].first;
     }
     if (load == 4) {
-      this.askQuestionsSets = "General questions v2";
+      this.askQuestionsSets = this.static[12].first;
     }
     this.askName();
   },
 
   // Ask the user for his name
   askName: function () {
-    rl.question("What is your name? => ", (name) => {
+    rl.question(this.static[13].first, (name) => {
       if (name === "") {
         name = "Player";
       }
-      console.log(chalk.magenta(`Hello ${name}! Welcome to the quiz! `));
-      console.log(chalk.bgBlue.yellow(`There are ${this.questions.length} questions in this quiz!`));
-      console.log(chalk.green("Type your answer and press enter to submit it."));
-      console.log(chalk.green("Type 'exit' to exit the quiz."));
-      console.log(chalk.cyanBright("Good luck!"));
+      console.log(
+        chalk.magenta(this.static[14].first + name + this.static[14].second)
+      );
+      console.log(
+        chalk.yellow(
+          this.static[15].first + this.questions.length + this.static[15].second
+        )
+      );
+      console.log(chalk.green(this.static[16].first));
+      console.log(chalk.green(this.static[17].first));
+      console.log(chalk.cyanBright(this.static[18].first));
       this.name = name;
       this.askQuestion();
     });
@@ -73,28 +132,33 @@ const quiz = {
   // Ask the user the current question and await for the loadQuestion to finish
   askQuestion: function () {
     rl.question(
-      this.questions[this.currentQuestion].question +
+      chalk.greenBright(this.questions[this.currentQuestion].question) +
         "\n" +
-        this.questions[this.currentQuestion].take +
+        chalk.cyan(this.questions[this.currentQuestion].take) +
         "\n" +
-        "Your answer => ",
+        chalk.cyan(this.static[19].first),
       (answer) => {
         if (
           answer.toLowerCase().trim() ===
           this.questions[this.currentQuestion].answer.toLowerCase().trim()
         ) {
           this.score++;
-          console.log(chalk.green.bold("Correct!" + "\n"));
+          console.log(chalk.green.bold(this.static[20].first));
         } else if (answer === "exit") {
           console.log(
             chalk.blue(
-              `You got ${this.score} out of ${this.questions.length} questions correct!`
+              this.static[21].first +
+                this.score +
+                this.static[21].second +
+                this.questions.length +
+                this.static[21].therd
             )
           );
           this.storeScore();
         } else {
           console.log(
-            chalk.red("Wrong! The correct answer is: ") +
+            chalk.red(this.static[22].first) +
+              chalk.greenBright(this.static[22].second) +
               chalk.green(this.questions[this.currentQuestion].answer) +
               "\n"
           );
@@ -105,7 +169,11 @@ const quiz = {
         } else {
           console.log(
             chalk.blue(
-              `You got ${this.score} out of ${this.questions.length} questions correct!`
+              this.static[23].first +
+                this.score +
+                this.static[23].second +
+                this.questions.length +
+                this.static[23].therd
             )
           );
           this.storeScore();
@@ -123,65 +191,87 @@ const quiz = {
   },
   // Ask the user if he wants to play again ore exit the game and print the top 3 scores
   playAgain: function () {
-    rl.question("Do you want to play again? (yes/no) ", (answer) => {
+    rl.question(this.static[24].first, (answer) => {
       if (answer.toLowerCase().trim() === "yes") {
         this.currentQuestion = 0;
         this.score = 0;
         this.questions = this.questions.sort(() => Math.random() - 0.5);
         console.clear();
-        this.askQuestionSet();
+        this.askQuestion(); // jump to begining wihtout loading the questions
       } else {
         let scores = fs.readFileSync(
           path.join(__dirname, "scores.txt"),
           "utf-8"
         );
-        let firstPlace = "";
-        let secondPlace = "";
-        let thirdPlace = "";
-        let firstPlaceScore = 0;
-        let secondPlaceScore = 0;
-        let thirdPlaceScore = 0;
-        let firstSet = "";
-        let secondSet = "";
-        let thirdSet = "";
+        scores = scores.trim();
         let lines = scores.split("\n");
-        for (let i = 0; i < lines.length; i++) {
-          let line = lines[i];
+        let score = lines.map((line) => {
           if (line !== "") {
             let name = line.split(":")[0];
             let score = parseInt(line.split(":")[1]);
             let Set = line.split(":")[2];
-            if (score > firstPlaceScore) {
-              thirdPlace = secondPlace;
-              thirdPlaceScore = secondPlaceScore;
-              secondPlace = firstPlace;
-              secondPlaceScore = firstPlaceScore;
-              firstPlace = name;
-              firstPlaceScore = score;
-              firstSet = Set;
-            } else if (score > secondPlaceScore) {
-              thirdPlace = secondPlace;
-              thirdPlaceScore = secondPlaceScore;
-              secondPlace = name;
-              secondPlaceScore = score;
-              secondSet = Set;
-            } else if (score > thirdPlaceScore) {
-              thirdPlace = name;
-              thirdPlaceScore = score;
-              thirdSet = Set;
-            }
+            return { name, score, Set };
           }
+        });
+        score = score.sort((a, b) => b.score - a.score);
+        firstPlace = score[0].name;
+        firstPlaceScore = score[0].score;
+        firstSet = score[0].Set;
+        secondPlace = score[1].name;
+        secondPlaceScore = score[1].score;
+        secondSet = score[1].Set;
+        thirdPlace = score[2].name;
+        thirdPlaceScore = score[2].score;
+        thirdSet = score[2].Set;
+        let bgcolors = [
+          { color: "bgBlue" },
+          { color: "bgRed" },
+          { color: "bgWhite" },
+          { color: "bgYellow" },
+          { color: "bgGreen" },
+          { color: "bgMagenta" },
+          { color: "bgCyan" },
+          { color: "bgBlack" },
+          { color: "bgBlueBright" },
+          { color: "bgRedBright" },
+          { color: "bgWhiteBright" },
+          { color: "bgYellowBright" },
+          { color: "bgGreenBright" },
+          { color: "bgMagentaBright" },
+          { color: "bgCyanBright" },
+          { color: "bgBlackBright" },
+        ];
+        let color = [
+          { color: "blackBright" },
+          { color: "blue" },
+          { color: "red" },
+          { color: "white" },
+          { color: "yellow" },
+          { color: "green" },
+          { color: "magenta" },
+          { color: "cyan" },
+          { color: "black" },
+          { color: "blueBright" },
+          { color: "redBright" },
+          { color: "whiteBright" },
+          { color: "yellowBright" },
+          { color: "greenBright" },
+          { color: "magentaBright" },
+          { color: "cyanBright" },
+        ];
+        for (let i = 0; i < Math.min(score.length, 16); i++) {
+          console.log(
+            chalk[bgcolors[i].color][color[i].color](
+              `${i + 1}. ${score[i].name}: ${score[i].score} in ${score[i].Set}`
+            )
+          );
         }
-        console.log(chalk.bgBlue.yellow(`1. ${firstPlace}: ${firstPlaceScore} in ${firstSet}`));
-        console.log(chalk.bgRed.blue(`2. ${secondPlace}: ${secondPlaceScore} in ${secondSet}`));
-        console.log(chalk.bgWhite.red(`3. ${thirdPlace}: ${thirdPlaceScore} in ${thirdSet}`));
         rl.close();
       }
     });
   },
 };
-quiz.askQuestionSet();
-
+quiz.askLanguage();
 
 /*
  The quescions.json file contains the questions and answers for the quiz.
