@@ -1,96 +1,96 @@
 [
   {
-    "question": "What is the capital of France?\n",
+    "question": "What is the capital of France?",
     "take": "A => Paris\nB => London\nC => Berlin\nD => Madrid",
     "answer": "A"
   },
   {
-    "question": "What is the capital of Spain?\n",
+    "question": "What is the capital of Spain?",
     "take": "A => Paris\nB => London\nC => Berlin\nD => Madrid",
     "answer": "D"
   },
   {
-    "question": "What is the capital of Germany?\n",
+    "question": "What is the capital of Germany?",
     "take": "A => Paris\nB => London\nC => Berlin\nD => Madrid",
     "answer": "C"
   },
   {
-    "question": "What is the capital of Italy?\n",
+    "question": "What is the capital of Italy?",
     "take": "A => Rome\nB => London\nC => Berlin\nD => Madrid",
     "answer": "A"
   },
   {
-    "question": "What is the capital of Poland?\n",
+    "question": "What is the capital of Poland?",
     "take": "A => Los Angeles\nB => Warsaw\nC => Berlin\nD => Bucarest",
     "answer": "B"
   },
   {
-    "question": "What is the capital of Ukraine?\n",
+    "question": "What is the capital of Ukraine?",
     "take": "A => Paris\nB => London\nC => Kiev\nD => Madrid",
     "answer": "C"
   },
   {
-    "question": "What is the capital of Russia?\n",
+    "question": "What is the capital of Russia?",
     "take": "A => Paris\nB => London\nC => Berlin\nD => Moscow",
     "answer": "D"
   },
   {
-    "question": "What is the capital of Belarus?\n",
+    "question": "What is the capital of Belarus?",
     "take": "A => Paris\nB => London\nC => Berlin\nD => Minsk",
     "answer": "D"
   },
   {
-    "question": "What is the capital of the United Kingdom?\n",
+    "question": "What is the capital of the United Kingdom?",
     "take": "A => Paris\nB => London\nC => Berlin\nD => Madrid",
     "answer": "B"
   },
   {
-    "question": "What is the capital of the United States?\n",
+    "question": "What is the capital of the United States?",
     "take": "A => Paris\nB => London\nC => Washington\nD => Madrid",
     "answer": "C"
   },
   {
-    "question": "What is the capital of Canada?\n",
+    "question": "What is the capital of Canada?",
     "take": "A => Paris\nB => London\nC => Berlin\nD => Ottawa",
     "answer": "D"
   },
   {
-    "question": "What is the capital of Mexico?\n",
+    "question": "What is the capital of Mexico?",
     "take": "A => Mexico City\nB => London\nC => Berlin\nD => Paris",
     "answer": "A"
   },
   {
-    "question": "What is the capital of Brazil?\n",
+    "question": "What is the capital of Brazil?",
     "take": "A => Paris\nB => Brasilia\nC => Berlin\nD => London",
     "answer": "B"
   },
   {
-    "question": "What is the capital of Argentina?\n",
+    "question": "What is the capital of Argentina?",
     "take": "A => Buenos Aires\nB => London\nC => Berlin\nD => Paris",
     "answer": "A"
   },
   {
-    "question": "What is the capital of Chile?\n",
+    "question": "What is the capital of Chile?",
     "take": "A => Paris\nB => London\nC => Berlin\nD => Santiago",
     "answer": "D"
   },
   {
-    "question": "What is the capital of Peru?\n",
+    "question": "What is the capital of Peru?",
     "take": "A => Paris\nB => Lima\nC => Berlin\nD => Madrid",
     "answer": "B"
   },
   {
-    "question": "What is the capital of Colombia?\n",
+    "question": "What is the capital of Colombia?",
     "take": "A => Paris\nB => London\nC => Berlin\nD => Bogota",
     "answer": "D"
   },
   {
-    "question": "What is the capital of Venezuela?\n",
+    "question": "What is the capital of Venezuela?",
     "take": "A => Paris\nB => London\nC => Berlin\nD => Caracas",
     "answer": "D"
   },
   {
-    "question": "What is the capital of Ecuador?\n",
+    "question": "What is the capital of Ecuador?",
     "take": "A => Paris\nB => Quito\nC => Berlin\nD => London",
     "answer": "B"
   }

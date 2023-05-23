@@ -1,96 +1,96 @@
 [
   {
-    "question": "Jaka jest stolica Francji?\n",
+    "question": "Jaka jest stolica Francji?",
     "take": "A => Paryż\nB => Londyn\nC => Berlin\nD => Madryt",
     "answer": "A"
   },
   {
-    "question": "Jaka jest stolica Hiszpanii?\n",
+    "question": "Jaka jest stolica Hiszpanii?",
     "take": "A => Paryż\nB => Londyn\nC => Berlin\nD => Madryt",
     "answer": "D"
   },
   {
-    "question": "Jaka jest stolica Niemiec?\n",
+    "question": "Jaka jest stolica Niemiec?",
     "take": "A => Paryż\nB => Londyn\nC => Berlin\nD => Madryt",
     "answer": "C"
   },
   {
-    "question": "Jaka jest stolica Włoch?\n",
+    "question": "Jaka jest stolica Włoch?",
     "take": "A => Rzym\nB => Londyn\nC => Berlin\nD => Madryt",
     "answer": "A"
   },
   {
-    "question": "Jaka jest stolica Polski?\n",
+    "question": "Jaka jest stolica Polski?",
     "take": "A => Los Angeles\nB => Warszawa\nC => Berlin\nD => Bukareszt",
     "answer": "B"
   },
   {
-    "question": "Jaka jest stolica Ukrainy?\n",
+    "question": "Jaka jest stolica Ukrainy?",
     "take": "A => Paryż\nB => Londyn\nC => Kijów\nD => Madryt",
     "answer": "C"
   },
   {
-    "question": "Jaka jest stolica Rosji?\n",
+    "question": "Jaka jest stolica Rosji?",
     "take": "A => Paryż\nB => Londyn\nC => Berlin\nD => Moskwa",
     "answer": "D"
   },
   {
-    "question": "Jaka jest stolica Białorusi?\n",
+    "question": "Jaka jest stolica Białorusi?",
     "take": "A => Paryż\nB => Londyn\nC => Berlin\nD => Mińsk",
     "answer": "D"
   },
   {
-    "question": "Jaka jest stolica Wielkiej Brytanii?\n",
+    "question": "Jaka jest stolica Wielkiej Brytanii?",
     "take": "A => Paryż\nB => Londyn\nC => Berlin\nD => Madryt",
     "answer": "B"
   },
   {
-    "question": "Jaka jest stolica Stanów Zjednoczonych?\n",
+    "question": "Jaka jest stolica Stanów Zjednoczonych?",
     "take": "A => Paryż\nB => Londyn\nC => Waszyngton\nD => Madryt",
     "answer": "C"
   },
   {
-    "question": "Jaka jest stolica Kanady?\n",
+    "question": "Jaka jest stolica Kanady?",
     "take": "A => Paryż\nB => Londyn\nC => Berlin\nD => Ottawa",
     "answer": "D"
   },
   {
-    "question": "Jaka jest stolica Meksyku?\n",
+    "question": "Jaka jest stolica Meksyku?",
     "take": "A => Meksyk\nB => Londyn\nC => Berlin\nD => Paryż",
     "answer": "A"
   },
   {
-    "question": "Jaka jest stolica Brazylii?\n",
+    "question": "Jaka jest stolica Brazylii?",
     "take": "A => Paryż\nB => Brasilia\nC => Berlin\nD => Londyn",
     "answer": "B"
   },
   {
-    "question": "Jaka jest stolica Argentyny?\n",
+    "question": "Jaka jest stolica Argentyny?",
     "take": "A => Buenos Aires\nB => Londyn\nC => Berlin\nD => Paryż",
     "answer": "A"
   },
   {
-    "question": "Jaka jest stolica Chile?\n",
+    "question": "Jaka jest stolica Chile?",
     "take": "A => Paryż\nB => Londyn\nC => Berlin\nD => Santiago",
     "answer": "D"
   },
   {
-    "question": "Jaka jest stolica Peru?\n",
+    "question": "Jaka jest stolica Peru?",
     "take": "A => Paryż\nB => Lima\nC => Berlin\nD => Madryt",
     "answer": "B"
   },
   {
-    "question": "Jaka jest stolica Kolumbii?\n",
+    "question": "Jaka jest stolica Kolumbii?",
     "take": "A => Paryż\nB => Londyn\nC => Berlin\nD => Bogota",
     "answer": "D"
   },
   {
-    "question": "Jaka jest stolica Wenezueli?\n",
+    "question": "Jaka jest stolica Wenezueli?",
     "take": "A => Paryż\nB => Londyn\nC => Berlin\nD => Caracas",
     "answer": "D"
   },
   {
-    "question": "Jaka jest stolica Ekwadoru?\n",
+    "question": "Jaka jest stolica Ekwadoru?",
     "take": "A => Paryż\nB => Quito\nC => Berlin\nD => Londyn",
     "answer": "B"
   }
