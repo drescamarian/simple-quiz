@@ -159,7 +159,7 @@ const quiz = {
           console.log(
             chalk.red(this.static[22].first) +
               chalk.greenBright(this.static[22].second) +
-              chalk.green(this.questions[this.currentQuestion].answer) 
+              chalk.green(this.questions[this.currentQuestion].answer)
           );
         }
         this.currentQuestion++;
@@ -173,7 +173,8 @@ const quiz = {
                 this.static[23].second +
                 this.questions.length +
                 this.static[23].therd
-            ));
+            )
+          );
           this.storeScore();
         }
       }
@@ -266,18 +267,61 @@ quiz.askLanguage();
  The quescions.json file contains the questions and answers for the quiz.
   the question format is as follows:
   { | index  |   |            text    |  new line  | }
-    "question": " |YOUR QUESTION HEARE|  \n", 
-    "take": "A => first\nB => second\nC => therd\nD => forth",
-    "answer": " |YOUR ANSWER HEARE| "
+    "question": " |YOUR QUESTION HEARE|  ", 
+    "take": "A => first\nB => second\nC => therd\nD => forth", tear are 4 variants of answers only one is correct 
+    "answer": " A || B || C || D " for the answer you can use the first letter of the answer or the full answer
   } "," - is a comma that separates the questions and answers is the required format for a json file
 !------------------------------------------------------------------------------!
   The quiz object contains the following properties:
   questions: an array of questions
   currentQuestion: the index of the current question
   score: the number of correct answers
-
 */
-
+/*
+  The statictext.txt file contains the text for the quiz.
+  the text format is as follows:
+┌─────────┬───────────────────────────────────────────────────┬─────────────────────────────┬────────────────────────┐
+│ (index) │                       first                       │           second            │         therd          │
+├─────────┼───────────────────────────────────────────────────┼─────────────────────────────┼────────────────────────┤
+│    0    │              'Welcome to the quiz! '              │             ''              │           ''           │
+│    1    │        'Please choose a questions set => '        │             ''              │           ''           │
+│    2    │    'What questions set do you want to load? '     │             ''              │           ''           │
+│    3    │               '1. Kids questions '                │             ''              │           ''           │
+│    4    │              '2. General Version 1 '              │             ''              │           ''           │
+│    5    │               '3. World Capitals '                │             ''              │           ''           │
+│    6    │              '4. General Version 2 '              │             ''              │           ''           │
+│    7    │                 'Your chose => '                  │             ''              │           ''           │
+│    8    │ 'Invalid input! Loading default questions set. '  │             ''              │           ''           │
+│    9    │                 'Kids questions '                 │             ''              │           ''           │
+│   10    │               'General Version 1 '                │             ''              │           ''           │
+│   11    │                 'World Capitals '                 │             ''              │           ''           │
+│   12    │               'General Version 2 '                │             ''              │           ''           │
+│   13    │             'What is your name? => '              │             ''              │           ''           │
+│   14    │                     'Hello '                      │  ' Welcome to the quiz! '   │           ''           │
+│   15    │                   'There are '                    │ ' questions in this quiz! ' │           ''           │
+│   16    │ 'Type your answer and press enter to submit it. ' │             ''              │           ''           │
+│   17    │         "Type 'exit' to exit the quiz. "          │             ''              │           ''           │
+│   18    │                   'Good luck! '                   │             ''              │           ''           │
+│   19    │                 'Your answer => '                 │             ''              │           ''           │
+│   20    │                    'Correct! '                    │             ''              │           ''           │
+│   21    │                    'You got '                     │         ' out of '          │ ' questions correct! ' │
+│   22    │                     'Wrong! '                     │ ' The correct answer is  '  │           ''           │
+│   23    │                    'You got '                     │         ' out of '          │ ' questions correct! ' │
+│   24    │      'Do you want to play again? (yes/no) '       │             ''              │           ''           │
+└─────────┴───────────────────────────────────────────────────┴─────────────────────────────┴────────────────────────┘
+!------------------------------------------------------------------------------!
+  Use in the code as follows:
+  this.static[0].first
+  this.static[0].second
+  this.static[0].therd
+  this.static[1].first
+  this.static[1].second
+  this.static[1].therd
+  For the text cam be set with index 0 to 24 and the first, second and therd can be set with index 0 to 2
+  first - is the first line of the text
+  second - is the second line of the text
+  therd - is the therd line of the text
+*/
 /* 
   the quiz object contains the following methods:
   loadQuestions: a method that loads the questions from the questions.json file
